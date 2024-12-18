@@ -65,13 +65,13 @@ export default function Navbar() {
         <Popover.Group className="hidden lg:flex lg:items-center lg:gap-x-12">
           <Link
             href="/"
-            className=" text-md   font-normal leading-6 text-black hover:text-red-700"
+            className=" text-md   font-normal leading-6 text-black hover:text-emerald-700"
           >
             Home
           </Link>{" "}
           <Link
             href="#"
-            className=" text-md  font-normal leading-6 text-black hover:text-red-700"
+            className=" text-md  font-normal leading-6 text-black hover:text-emerald-700"
           >
             About Us
           </Link> 
@@ -116,13 +116,13 @@ export default function Navbar() {
           </Popover>{" "}
           <Link
             href="#"
-            className=" text-md   font-normal leading-6 text-black hover:text-red-700"
+            className=" text-md   font-normal leading-6 text-black hover:text-emerald-700"
           >
             Our Products
           </Link>
           <Link
             href="#"
-            className=" text-md   font-normal leading-6 text-black hover:text-red-700"
+            className=" text-md   font-normal leading-6 text-black hover:text-emerald-700"
           >
             Contact Us
           </Link>

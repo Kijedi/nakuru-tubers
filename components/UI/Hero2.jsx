@@ -4,7 +4,7 @@ export default function Hero2() {
   return (
     <div className="bg-[url('/images/bg1.jpg')] bg-cover bg-center xl:h-[600px] lg:h-[500px] h-[500px] w-screen relative">
       <div className="absolute z-10 max-w-5xl p-10 lg:p-28">
-        <h1 className="font-bold py-3  text-white tracking-wider  w-full text-4xl lg:text-5xl capitalize">
+        <h1 className="font-bold py-3  text-white tracking-wider  w-full text-3xl lg:text-5xl capitalize">
           <span className="text-[#42ce7c] text-5xl lg:text-7xl">
             {" "}
             Nakuru Tubers<br/>
