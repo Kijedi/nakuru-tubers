@@ -6,7 +6,7 @@ export default function Partner() {
   return (
     <div className="bg-white py-20">
       <div className="w-full relative lg:max-w-6xl  grid grid-cols-5  mx-auto lg:shadow-2xl rounded-lg  text-black">
-        <div className="w-full h-full col-span-2 relative rounded-l-lg">
+        <div className="w-full h-96 lg:h-full col-span-5 lg:col-span-2 relative rounded-l-lg">
           <Image
             src={"/images/bg1.jpg"}
             alt="Partner"
@@ -25,7 +25,7 @@ export default function Partner() {
             priority
             unoptimized
           />
-        <div className="col-span-3 bg-amber-50 p-10 lg:rounded-r-lg">
+        <div className="col-span-5 lg:col-span-3 bg-amber-50 p-10 lg:rounded-r-lg">
           <div className="lg:p-16">
             <h1 className="font-bold text-slate-900 text-4xl sm:text-4xl">
               Partner with Us

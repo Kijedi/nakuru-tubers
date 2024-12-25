@@ -14,7 +14,7 @@ const numbers = [
     number: 2000,
   },
   {
-    name: "Countries Served",
+    name: "Counties Served",
     number: 4,
   },
 ];
@@ -24,14 +24,14 @@ export default function Traction() {
   const isInView = useInView(ref);
 
   return (
-    <div ref={ref} className="lg:p-12 bg-white">
-      <ul className="grid grid-cols-6 max-w-4xl mx-auto border border-gray-700 rounded-lg shadow-lg">
+    <div ref={ref} className="lg:p-12 bg-white p-8">
+      <ul className="grid grid-cols-6 lg:max-w-4xl py-4 lg:mx-auto border border-gray-700 rounded-lg shadow-lg">
         {numbers.map((number, index) => (
           <li
             key={index}
             className=" col-span-3 lg:col-span-2 rounded-lg lg:m-0 flex flex-col lg:p-2 bg-white"
           >
-            <p className="text-5xl flex lg:text-7xl py-4 text-gray-400 px-4 tracking-wide uppercase">
+            <p className="text-3xl flex lg:text-7xl md:py-4 text-gray-500 px-4 tracking-wide uppercase">
               {isInView && 
               <CountUp delay={1} end={number.number} />
               } +

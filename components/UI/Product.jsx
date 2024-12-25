@@ -7,10 +7,10 @@ export default function Product() {
   return (
     <div className="bg-white  relative py-28">
       <Image
-        class="absolute top-0 right-10 z-10 -translate-x-1/4"
+        class="absolute top-5 right-0 z-10 -translate-x-1/4"
         src="/images/patterns/pattern-2.svg"
-        height={100}
-        width={100}
+        height={80}
+        width={80}
         alt="pattern icon"
       />
       <div className="bg-white mx-auto text-center  max-w-3xl">
@@ -30,10 +30,10 @@ export default function Product() {
       </div>
       <section class="py-12 px-4  bg-white flex items-center justify-center">
         <div class="container">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 md:gap-y-32 gap-y-12 md:gap-x-12">
             {products.map((product) => (
-              <div class="max-w-3xl relative mx-auto grid md:grid-cols-5 grid-cols-1 gap-6  items-center rounded-2xl ">
-                <div class="md:col-span-2  z-0 relative h-96 w-96">
+              <div class="max-w-3xl relative mx-auto grid md:grid-cols-5 grid-cols-1 gap-6 items-center rounded-2xl ">
+                <div class="md:col-span-2  lg:z-0 z-10 ml-4 md:ml-0 relative h-96 w-96">
                   <Image
                     src={`/images/bg1.jpg`}
                     layout="fill"
@@ -41,7 +41,7 @@ export default function Product() {
                     alt=""
                   />
                 </div>
-                <div class="md:col-span-3 z-10 bg-white/80 backdrop-blur-md border border-green-600 p-6 rounded-lg shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px]">
+                <div class="md:col-span-3 z-10 lg:bg-white/80 bg-white/30 backdrop-blur-md border border-green-600 -mt-10 p-6 rounded-lg shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px]">
                   <h2 class="text-2xl font-semibold text-gray-950">
                     {product.name}
                   </h2>

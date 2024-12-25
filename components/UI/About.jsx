@@ -3,7 +3,7 @@ import { FaCheckDouble } from "react-icons/fa6";
 
 export default function Hero2() {
   return (
-    <div class="p-20 bg-white">
+    <div class="p-8 md:p-20 bg-white">
       <div class="lg:grid lg:grid-cols-2 lg:gap-[30px] xl:gap-[95px]">
         <div class="relative">
           <Image
@@ -18,7 +18,7 @@ export default function Hero2() {
           <span class="font-chivo inline-block bg-bg-2 text-teal-600 bg-teal-600/10 font-medium py-[14px] px-[28px] rounded-[50px] text-[14px] leading-[14px] mb-[22px]">
             About Us
           </span>
-          <h3 class="font-chivo font-bold lg:text-heading-1 text-emerald-600 md:text-[46px] md:leading-[52px] text-[35px] leading-[44px] mb-[22px]">
+          <h3 class="font-chivo font-bold lg:text-heading-1 text-emerald-600 md:text-[46px] md:leading-[52px] text-[35px] leading-9 mb-[22px]">
             Your Trusted Partner for high quality certified seed potato
           </h3>
           <p class="text-quote md:text-lead-lg text-gray-600 mb-2">
@@ -35,7 +35,6 @@ export default function Hero2() {
           </p>
           <h1 className="text-emerald-600 text-lg font-semibold">Mission</h1>
           <p className="text-gray-700">
-
             To provide certified seed potatoes and innovative training solutions
             that empower 700,000 smallholder farmers in Kenya to increase
             yields, adapt to climate change, reduce postharvest losses and
@@ -44,57 +43,44 @@ export default function Hero2() {
           <div class="border border-green-900 border-dashed my-4"></div>
           <div class="md:grid md:grid-cols-2 md:gap-y-[34px] lg:gap-x-[70px]">
             <div class="mb-[30px] lg:mb-0">
-              <div class="flex items-center mb-[17px]">
-                <FaCheckDouble
-                  class="mr-[9px]"
-                  src="./assets/images/icons/icon-leaf.svg"
-                  alt="leaf icon"
-                />
-                <h4 class="text-heading-6 font-chivo font-bold">
-                Innovation
-                </h4>
+              <div class="flex shrink-0 items-center mb-[17px] text-gray-600">
+                <FaCheckDouble class="mr-[9px]" alt="leaf icon size-5" />
+                <h4 class="text-heading-6 font-chivo font-bold">Innovation</h4>
               </div>
               <p class="text-excerpt text-gray-600">
-              Continuously improving potato farming through science and technology.              </p>
+                Continuously improving potato farming through science and
+                technology.{" "}
+              </p>
             </div>
             <div class="mb-[30px] lg:mb-0">
-              <div class="flex items-center mb-[17px]">
-                <FaCheckDouble
-                  class="mr-[9px]"
-                  alt="leaf icon"
-                />
+              <div class="flex items-center mb-[17px] text-gray-600">
+                <FaCheckDouble class="mr-[9px] size-5" alt="leaf icon" />
                 <h4 class="text-heading-6 font-chivo font-bold">
-              Sustainability
+                  Sustainability
                 </h4>
               </div>
               <p class="text-excerpt text-gray-600">
-              We prioritize eco-friendly practices to safeguard our planet.              </p>
+                We prioritize eco-friendly practices to safeguard our planet.{" "}
+              </p>
             </div>
             <div class="mb-[30px] lg:mb-0">
-              <div class="flex items-center mb-[17px]">
-                <FaCheckDouble
-                  class="mr-[9px]"
-                  alt="leaf icon"
-                />
-                <h4 class="text-heading-6 font-chivo font-bold">
-                Empowerment
-                </h4>
+            <div class="flex items-center mb-[17px] text-gray-600">
+            <FaCheckDouble class="mr-[9px] size-5" alt="leaf icon" />
+                <h4 class="text-heading-6 font-chivo font-bold">Empowerment</h4>
               </div>
               <p class="text-excerpt text-gray-600">
-              Uplifting farmers especially youth and women and strengthening communities.               </p>
+                Uplifting farmers especially youth and women and strengthening
+                communities.{" "}
+              </p>
             </div>
             <div class="mb-[30px] lg:mb-0">
-              <div class="flex items-center mb-[17px]">
-                <FaCheckDouble
-                  class="mr-[9px]"
-                  alt="leaf icon"
-                />
-                <h4 class="text-heading-6 font-chivo font-bold">
-              Integrity
-                </h4>
+            <div class="flex items-center mb-[17px] text-gray-600">
+            <FaCheckDouble class="mr-[9px] size-5" alt="leaf icon" />
+                <h4 class="text-heading-6 font-chivo font-bold">Integrity</h4>
               </div>
               <p class="text-excerpt text-gray-600">
-              We uphold transparency and honesty in all our operations.               </p>
+                We uphold transparency and honesty in all our operations.{" "}
+              </p>
             </div>
           </div>
         </div>

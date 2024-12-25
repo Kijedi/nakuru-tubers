@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export default function Price() {
   return (
-    <div class="px-[12px] md:px-[36px] bg-[url('/images/bg1.jpg')] bg-fixed bg-blend-saturation bg-cover relative xl:px-0 lg:py-20">
+    <div class="px-[12px] md:px-[36px] py-12 bg-[url('/images/bg1.jpg')] bg-fixed bg-blend-saturation bg-cover relative xl:px-0 lg:py-20">
       {/* <div className=""> */}
         {/* <Image
           src={"/images/bg1.jpg"}
