@@ -28,7 +28,7 @@ export default function Product() {
           reduce losses, and increase profitability.
         </p>
       </div>
-      <section class="py-12 px-4  bg-white flex items-center justify-center">
+      <section class="py-12 px-4 mt-12 lg:mt-28 bg-white flex items-center justify-center">
         <div class="container">
           <div className="grid grid-cols-1 md:grid-cols-2 md:gap-y-32 gap-y-12 md:gap-x-12">
             {products.map((product) => (

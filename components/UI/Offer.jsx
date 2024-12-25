@@ -20,7 +20,7 @@ export default function Offer() {
             strategy, design &amp; technology.
           </p>
         </div>
-        <div class="offer-list dots flex flex-wrap gap-3">
+        <div class="flex flex-wrap md:flex-nowrap gap-3">
           <div class="rounded-2xl py-[20px] px-[24px] md:py-[43px] md:px-[63px] md:mx-5 transition-all duration-300 hover:translate-y-[-3px] bg-white">
             <FaCalendar
               class="h-full w-full object-cover mb-[30px] max-w-[50px] max-h-[50px] text-amber-400"
