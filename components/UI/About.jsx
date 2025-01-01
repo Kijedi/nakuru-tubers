@@ -40,49 +40,8 @@ export default function Hero2() {
             yields, adapt to climate change, reduce postharvest losses and
             enhance food security through research.
           </p>
-          <div class="border border-green-900 border-dashed my-4"></div>
-          <div class="md:grid md:grid-cols-2 md:gap-y-[34px] lg:gap-x-[70px]">
-            <div class="mb-[30px] lg:mb-0">
-              <div class="flex shrink-0 items-center mb-[17px] text-gray-600">
-                <FaCheckDouble class="mr-[9px]" alt="leaf icon size-5" />
-                <h4 class="text-heading-6 font-chivo font-bold">Innovation</h4>
-              </div>
-              <p class="text-excerpt text-gray-600">
-                Continuously improving potato farming through science and
-                technology.{" "}
-              </p>
-            </div>
-            <div class="mb-[30px] lg:mb-0">
-              <div class="flex items-center mb-[17px] text-gray-600">
-                <FaCheckDouble class="mr-[9px] size-5" alt="leaf icon" />
-                <h4 class="text-heading-6 font-chivo font-bold">
-                  Sustainability
-                </h4>
-              </div>
-              <p class="text-excerpt text-gray-600">
-                We prioritize eco-friendly practices to safeguard our planet.{" "}
-              </p>
-            </div>
-            <div class="mb-[30px] lg:mb-0">
-            <div class="flex items-center mb-[17px] text-gray-600">
-            <FaCheckDouble class="mr-[9px] size-5" alt="leaf icon" />
-                <h4 class="text-heading-6 font-chivo font-bold">Empowerment</h4>
-              </div>
-              <p class="text-excerpt text-gray-600">
-                Uplifting farmers especially youth and women and strengthening
-                communities.{" "}
-              </p>
-            </div>
-            <div class="mb-[30px] lg:mb-0">
-            <div class="flex items-center mb-[17px] text-gray-600">
-            <FaCheckDouble class="mr-[9px] size-5" alt="leaf icon" />
-                <h4 class="text-heading-6 font-chivo font-bold">Integrity</h4>
-              </div>
-              <p class="text-excerpt text-gray-600">
-                We uphold transparency and honesty in all our operations.{" "}
-              </p>
-            </div>
-          </div>
+          {/* <div class="border border-green-900 border-dashed my-4"></div> */}
+        
         </div>
       </div>
     </div>
