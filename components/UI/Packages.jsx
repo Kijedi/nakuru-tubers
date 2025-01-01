@@ -59,18 +59,17 @@ export default function Price() {
                 {" "}
                 <Link
                   class="flex items-center group py-3  z-10 relative transition-all duration-200 px-[22px] rounded-md bg-gray-900 group-even:bg-white group-even:text-black text-white  hover:-translate-y-2 border-[2px] border-[#171B24]"
-                  href="#"
-                >
+                  href="mailto:info@nakurutubers.com"
+                  >
                   <span class="block text-inherit w-full h-full rounded-md text-lg font-chivo font-semibold">
                     Get in Touch
                   </span>
-                  <i>
-                    {" "}
+                  
                     <ArrowRightCircleIcon
                       class="text-white group-even:text-gray-900  size-8 transition-all duration-200"
                       alt="arrow right icon"
                     />
-                  </i>
+                
                 </Link>
               </button>
             </div>

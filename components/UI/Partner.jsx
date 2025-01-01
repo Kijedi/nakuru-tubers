@@ -49,7 +49,7 @@ export default function Partner() {
               </div>
             </div>
             <Link
-              href="#"
+              href="mailto:info@nakurutubers.com"
               className="rounded-lg font-light text-lg px-4 py-3 hover:bg-emerald-600 duration-300 ease-in-out text-white bg-emerald-500"
             >
               Partner With Us Today!
