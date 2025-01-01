@@ -1,4 +1,4 @@
-import Product from "../components/UI/Product";
+// import Product from "../components/UI/Product";
 import Footer from "../components/UI/Footer";
 import Hero2 from "../components/UI/Hero2";
 import Navbar from "../components/UI/Navbar";
@@ -20,7 +20,7 @@ export default function Home() {
       <Offer />
       <Partner />
       <Price />
-      <Product />
+      {/* <Product /> */}
       <Footer />
     </>
   );

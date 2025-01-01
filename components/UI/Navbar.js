@@ -115,7 +115,7 @@ export default function Navbar() {
             </Transition>
           </Popover>{" "}
           <Link
-            href="#"
+            href="products"
             className=" text-md   font-normal leading-6 text-black hover:text-emerald-700"
           >
             Our Products
