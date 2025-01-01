@@ -16,8 +16,7 @@ export default function Offer() {
           Why We Do What We Do
           </h2>
           <p class="text-quote md:text-lead-lg text-gray-50 mx-auto md:max-w-[50ch]">
-            What makes us different from others? We give holistic solutions with
-            strategy, design &amp; technology.
+          We are transforming potato farming by utilizing cutting-edge science and research to provide smallholder farmers with certified seed potatoes. 
           </p>
         </div>
         <div class="flex flex-wrap md:flex-nowrap gap-3">
