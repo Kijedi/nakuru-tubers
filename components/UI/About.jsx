@@ -18,8 +18,8 @@ export default function Hero2() {
           <span class="font-chivo inline-block bg-bg-2 text-teal-600 bg-teal-600/10 font-medium py-[14px] px-[28px] rounded-[50px] text-[14px] leading-[14px] mb-[22px]">
             About Us
           </span>
-          <h3 class="font-chivo font-bold lg:text-heading-1 text-emerald-600 md:text-[46px] md:leading-[52px] text-[35px] leading-9 mb-[22px]">
-            Your Trusted Partner for high quality certified seed potato
+          <h3 class="font-chivo font-black text-emerald-600  text-4xl mb-[22px]">
+            Unlocking Kenya’s smallholder potato farmers’ productivity potential{" "}
           </h3>
           <p class="text-quote md:text-lead-lg text-gray-600 mb-2">
             We utilize scientific research to produce certified seed potatoes
@@ -28,20 +28,28 @@ export default function Hero2() {
             serve 20,000 smallholder farmers by 2030, transforming potato
             farming in Kenya through climate-resilient, certified seed potato.
           </p>
-          <h1 className="text-lg font-semibold text-emerald-600">Vision</h1>
-          <p className="text-gray-700">
-            To revolutionize potato farming in Africa through innovation,
-            resilience, and climate-smart potato solutions.
-          </p>
-          <h1 className="text-emerald-600 text-lg font-semibold">Mission</h1>
-          <p className="text-gray-700">
-            To provide certified seed potatoes and innovative training solutions
-            that empower 700,000 smallholder farmers in Kenya to increase
-            yields, adapt to climate change, reduce postharvest losses and
-            enhance food security through research.
-          </p>
-          {/* <div class="border border-green-900 border-dashed my-4"></div> */}
-        
+          <div className="flex gap-4 items-center bg-amber-50 p-4 rounded-lg border border-amber-500 shadow-md mt-10">
+            <Image src="/images/vision.png" height={80} width={80} />
+            <div>
+              <h1 className="text-2xl font-bold text-amber-600">Vision</h1>
+              <p className="text-gray-700 text-sm">
+                To revolutionize potato farming in Africa through innovation,
+                resilience, and climate-smart potato solutions.
+              </p>
+            </div>
+          </div>{" "}
+          <div className="flex gap-4 items-center bg-amber-50 p-4 rounded-lg border border-amber-500 shadow-md mt-10">
+            <Image src="/images/mission.png" height={80} width={80} />
+            <div>
+              <h1 className="text-2xl font-bold text-amber-600">Mission</h1>
+              <p className="text-gray-700 text-sm">
+                To provide certified seed potatoes and innovative training
+                solutions that empower 700,000 smallholder farmers in Kenya to
+                increase yields, adapt to climate change, reduce postharvest
+                losses and enhance food security through research.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

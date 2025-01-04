@@ -5,17 +5,17 @@ const offers = [
   {
     name: "Food Security",
     desc: "Food insecurity continues to plague Kenya, with over 51% of the population facing hunger. Potatoes, a vital staple crop, sufferfrom low productivity and significant post-harvest losses. By addressing these challenges, we can ensure a more abundant and reliable food supply for our nation.",
-    image: "/images/bg1.jpg",
+    image: "/images/offer/offer1.jpg",
   },
   {
     name: "Climate Change",
     desc: "Climate change has increased agricultural challenges leading to erratic weather, prolonged droughts, and increased pests and diseases outbreaks. These actors directly impact crop productivity and contribute to increased postharvest losses. Urgent action to adapt is essential to adapt to these changing conditions and mitigate the negative impacts on food security and livelihoods.",
-    image: "/images/bg1.jpg",
+    image: "/images/offer/offer3.jpg",
   },
   {
     name: "Economic Development",
     desc: "Smallholder farmers, key drivers of Kenya’s rural economy, face low yields, poor-quality produce, and limited market access. Overcoming these barriers can transform rural economies, create jobs, and enhance economies resilience in agriculture-driven communities.",
-    image: "/images/bg1.jpg",
+    image: "/images/offer/offer2.jpg",
   },
 ];
 
@@ -40,14 +40,14 @@ export default function Offer() {
             potatoes.
           </p>
         </div>
-        <div class="grid md:grid-cols-3 grid-cols-1 lg:mx-10 gap-8">
+        <div class="grid md:grid-cols-3 grid-cols-1 lg:mx-10 gap-4">
           {offers.map((offer, index) => (
             <div key={index} class="rounded-2xl transition-all shadow-lg duration-300 hover:translate-y-[-3px] bg-white">
               <div className="relative h-96">
                 <Image
                   src={offer.image}
                   layout="fill"
-                  class="rounded-t-xl *:object-cover"
+                  class="rounded-t-xl object-cover"
                   alt=""
                 />
               </div>

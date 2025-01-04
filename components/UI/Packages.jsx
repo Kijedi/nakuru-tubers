@@ -8,14 +8,14 @@ import Image from "next/image";
 
 export default function Price() {
   return (
-    <div class="px-[12px] md:px-[36px] py-12 bg-[url('/images/bg1.jpg')] bg-fixed bg-blend-saturation bg-cover relative xl:px-0 lg:py-20">
+    <div class="px-[12px] md:px-[36px] py-12 bg-[url('/images/bg3.jpg')] bg-fixed bg-cover relative xl:px-0 lg:py-20">
       {/* <div className=""> */}
         {/* <Image
           src={"/images/bg1.jpg"}
           layout="fill"
           className="z-0 w-full h-full object-cover fixed inset-0 blur-sm"
         /> */}
-        <div className="bg-black/60  h-full w-full z-10 absolute inset-0"></div>
+        <div className="bg-black/70  h-full w-full z-10 absolute inset-0"></div>
       {/* </div> */}
 
       <div class="text-center relative z-10">
@@ -59,7 +59,7 @@ export default function Price() {
                 {" "}
                 <Link
                   class="flex items-center group py-3  z-10 relative transition-all duration-200 px-[22px] rounded-md bg-gray-900 group-even:bg-white group-even:text-black text-white  hover:-translate-y-2 border-[2px] border-[#171B24]"
-                  href="mailto:info@nakurutubers.com"
+                  href="contact"
                   >
                   <span class="block text-inherit w-full h-full rounded-md text-lg font-chivo font-semibold">
                     Get in Touch

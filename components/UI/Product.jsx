@@ -83,7 +83,7 @@ export default function Product() {
                   </div>
                   <div className="flex w-full justify-center">
                     <Link
-              href="mailto:info@nakurutubers.com"
+              href="contact"
               className="bg-emerald-600 text-white rounded-md px-4 py-2 hover:-translate-y-1 duration-200 transition-all"
                     >
                       Get in Touch

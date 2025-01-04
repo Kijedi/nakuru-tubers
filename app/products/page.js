@@ -7,8 +7,8 @@ export default function Home() {
     <>
       <Navbar />
       <div className="relative">
-        <div className="relative  bg-[url('/images/bg1.jpg')] bg-center bg-cover text-white px-10 lg:px-24 py-10 lg:py-16 bg-blend-overlay h-72">
-          <div className="absolute z-10 w-3/4">
+        <div className="relative  bg-[url('/images/products.jpg')] bg-center bg-cover text-white px-10 lg:px-24 py-10 lg:py-16 bg-blend-overlay h-72">
+          <div className="absolute z-10 w-3/5">
             <p className="text-3xl lg:text-6xl z-10 font-medium  text-emerald-500">
               Our Products
             </p>
@@ -17,7 +17,7 @@ export default function Home() {
               cultivated and processed to meet the highest standards.
             </p>
           </div>
-          <div className="absolute inset-x-0 top-0 z-0  h-full object-cover bg-gradient-to-r from-black/90 to-black/10"></div>
+          <div className="absolute inset-x-0 top-0 z-0  h-full object-cover bg-gradient-to-r from-black/80 to-black/10"></div>
         </div>
       </div>
       <Product />

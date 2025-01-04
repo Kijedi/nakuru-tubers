@@ -70,7 +70,7 @@ export default function Navbar() {
             Home
           </Link>{" "}
           <Link
-            href="#about"
+            href="/#about"
             className=" text-md  font-normal leading-6 text-black hover:text-emerald-700"
           >
             About Us
@@ -165,7 +165,7 @@ export default function Navbar() {
                 </Link>{" "}
                 
                 <Link
-                  href="#about"
+                  href="/#about"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-50"
                 >
                   About Us
