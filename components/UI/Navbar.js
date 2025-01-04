@@ -75,45 +75,7 @@ export default function Navbar() {
           >
             About Us
           </Link> 
-           <Popover className="relative">
-            <Popover.Button className="flex items-center gap-x-1 text-md   font-normal leading-6 text-black">
-             Our Services
-              <ChevronDownIcon
-                className="h-5 w-5 flex-none text-gray-400"
-                aria-hidden="true"
-              />
-            </Popover.Button>
-            <Transition
-              as={Fragment}
-              enter="transition ease-out duration-200"
-              enterFrom="opacity-0 translate-y-1"
-              enterTo="opacity-100 translate-y-0"
-              leave="transition ease-in duration-150"
-              leaveFrom="opacity-100 translate-y-0"
-              leaveTo="opacity-0 translate-y-1"
-            >
-              <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-96 overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
-                {/* <div className="p-4">
-                  {products.map((item) => (
-                    <div
-                      key={item.title}
-                      className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50 "
-                    >
-                      <div className="flex-auto">
-                        <a
-                          href={item.href}
-                          className="block font-semibold text-black hover:text-flesh-400"
-                        >
-                          {item.title}
-                          <span className="absolute inset-0" />
-                        </a>
-                      </div>
-                    </div>
-                  ))}
-                </div> */}
-              </Popover.Panel>
-            </Transition>
-          </Popover>{" "}
+       
           <Link
             href="products"
             className=" text-md   font-normal leading-6 text-black hover:text-emerald-700"
@@ -208,12 +170,12 @@ export default function Navbar() {
                 >
                   About Us
                 </Link>
-                <Link
+                {/* <Link
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-50"
                 >
                   Our Services
-                </Link>
+                </Link> */}
                 <Link
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-50"
