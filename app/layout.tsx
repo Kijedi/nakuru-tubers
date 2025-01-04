@@ -6,7 +6,7 @@ const inter = Poppins({ weight: ["400"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Nakuru Tubers",
-  description: "Nakuru Tubers",
+  description: "Your Trusted Partner for high quality certified seed potato.",
 };
 
 export default function RootLayout({
