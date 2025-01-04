@@ -1,26 +1,34 @@
 import { FaCalendar } from "react-icons/fa6";
+import { LuLightbulb } from "react-icons/lu";
+import { IoEarthOutline } from "react-icons/io5";
+import { FaRegHandshake } from "react-icons/fa";
+import { PiHandFistLight } from "react-icons/pi";
+
+
+
+
 const values = [
   {
     name: "Innovation",
-    icon: FaCalendar,
+    icon: LuLightbulb,
     description:
       "Continuously improving potato farming through science andtechnology.",
   },
   {
     name: "Sustainability",
-    icon: FaCalendar,
+    icon: IoEarthOutline,
     description:
       "We prioritize eco-friendly practices to safeguard our planet.",
   },
   {
     name: "Empowerment",
-    icon: FaCalendar,
+    icon: PiHandFistLight,
     description:
       "Uplifting farmers especially youth and women and strengthening communities.",
   },
   {
     name: "Integrity",
-    icon: FaCalendar,
+    icon: FaRegHandshake,
     description: "We uphold transparency and honesty in all our operations.",
   },
 ];
@@ -33,8 +41,7 @@ export default function Value() {
          What we value
         </p>
         <h3 class="font-chivo font-bold lg:text-heading-1 text-gray-600 md:text-3xl text-xl leading-9 mb-[22px]">
-          Your Trusted Partner for high quality certified seed potato
-        </h3>
+        We are revolutionizing potato farming through innovative science and technology.        </h3>
       </div>
 
       <div class="md:grid md:grid-cols-2 bg-white text-gray-600  max-w-6xl mx-auto gap-4">
@@ -43,10 +50,10 @@ export default function Value() {
           return (
             <div
               key={index}
-              className="p-4 md:p-8 cursor-pointer border shadow-lg my-6 md:my-0 hover:bg-emerald-600 hover:text-white ease-in-out hover:-translate-y-2 transition-all duration-200 rounded-lg border-emerald-600"
+              className="p-4 md:p-8 cursor-pointer border group shadow-lg my-6 md:my-0 hover:bg-emerald-600 hover:text-white ease-in-out hover:-translate-y-2 transition-all duration-200 rounded-lg border-emerald-600"
             >
-              <Icon className="size-10 md:size-16 text-emerald-600" />
-              <p className="text-xl py-2 font-semibold text-emerald-600">{value.name}</p>
+              <Icon className="size-12 md:size-16 group-hover:text-amber-500 duration-200 ease-in-out text-emerald-600" />
+              <p className="text-xl py-2 group-hover:text-amber-500 duration-200 ease-in-out font-semibold text-emerald-600">{value.name}</p>
               <p className="text-lg">{value.description}</p>
             </div>
           );
