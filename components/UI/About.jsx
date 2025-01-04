@@ -3,7 +3,7 @@ import { FaCheckDouble } from "react-icons/fa6";
 
 export default function Hero2() {
   return (
-    <div class="p-8 md:p-20 bg-white">
+    <div id="about" class="p-8 md:p-20 bg-white">
       <div class="lg:grid lg:grid-cols-2 lg:gap-[30px] xl:gap-[95px]">
         <div class="relative">
           <Image
