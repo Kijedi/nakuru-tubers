@@ -1,9 +1,10 @@
 import { services } from "../../../components/data/services";
 import Footer from "../../../components/UI/Footer";
 import Navbar from "../../../components/UI/Navbar";
+import Price from "../../../components/UI/Packages";
 export default async function ServiceIndex({ params }) {
   const serviceId = (await params).id;
-  console.log(serviceId)
+  console.log(serviceId);
   const service = services[serviceId];
   return (
     <>
@@ -25,8 +26,9 @@ export default async function ServiceIndex({ params }) {
           <div className="absolute inset-x-0 top-0 z-0  h-full object-cover bg-gradient-to-r from-black/80 to-black/10"></div>
         </div>
       </div>
-      <div className="h-96 bg-white w-full"></div>
-      <Footer/>
+      <Price name={service.name} />
+
+      <Footer />
     </>
   );
 }

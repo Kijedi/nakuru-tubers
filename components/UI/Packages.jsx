@@ -6,23 +6,23 @@ import { packages } from "../data/packages";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Price() {
+export default function Price({name}) {
   return (
-    <div class="px-[12px] md:px-[36px] py-12 bg-[url('/images/bg3.jpg')] bg-fixed bg-cover relative xl:px-0 lg:py-20">
+    <div class="px-[12px] md:px-[36px] py-12 bg-white relative xl:px-0 lg:py-20">
       {/* <div className=""> */}
         {/* <Image
           src={"/images/bg1.jpg"}
           layout="fill"
           className="z-0 w-full h-full object-cover fixed inset-0 blur-sm"
         /> */}
-        <div className="bg-black/70  h-full w-full z-10 absolute inset-0"></div>
+        {/* <div className="bg-black/70  h-full w-full z-10 absolute inset-0"></div> */}
       {/* </div> */}
 
       <div class="text-center relative z-10">
-      <span class="font-chivo inline-block text-yellow-500 bg-yellow-500/20 font-semibold tracking-wide py-[14px] px-[28px] rounded-[50px] text-[14px] leading-[14px] mb-[22px]">
-            Our Packages
+      <span class="font-chivo uppercase inline-block text-amber-600 bg-amber-600/10 font-semibold tracking-wide py-[14px] px-[28px] rounded-[50px] text-[14px] leading-[14px] mb-[22px]">
+            {name} Packages
           </span>
-        <h2 class="font-bold font-chivo mx-auto text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 text-emerald-400 mb-5 md:mb-[30px] max-w-[725px]">
+        <h2 class="font-bold font-chivo mx-auto text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 text-emerald-600 mb-5 md:mb-[30px] max-w-[725px]">
        
           Get in touch with us to book a site visit{" "}
         </h2>
