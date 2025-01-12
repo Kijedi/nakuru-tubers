@@ -8,7 +8,7 @@ export default function Hero2() {
         <div class="relative">
           <Image
             class="rounded-2xl"
-            src={`/images/about.jpg`}
+            src={`/images/about2.jpg`}
             layout="fill"
             className="object-cover rounded-lg shadow-lg"
             alt="Agon"

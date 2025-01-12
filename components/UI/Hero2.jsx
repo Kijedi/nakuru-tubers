@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Hero2() {
   return (
-    <div className="bg-[url('/images/bg1.jpg')] bg-cover bg-center xl:h-[600px] lg:h-[500px] h-[400px] relative">
+    <div className="bg-[url('/images/bg2.jpg')] bg-cover bg-center xl:h-[600px] lg:h-[500px] h-[400px] relative">
       <div className="absolute z-10 max-w-5xl p-8 lg:p-28">
         <h1 className="font-bold py-3  text-amber-500 tracking-wider w-full text-xl lg:text-5xl capitalize">
           <span className="text-emerald-600 text-4xl lg:text-7xl">

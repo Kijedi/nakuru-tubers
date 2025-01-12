@@ -8,7 +8,7 @@ export default function Partner() {
       <div className="w-full relative lg:max-w-6xl  grid grid-cols-5  mx-auto lg:shadow-2xl rounded-lg  text-black">
         <div className="w-full h-96 lg:h-full col-span-5 lg:col-span-2 relative rounded-l-lg">
           <Image
-            src={"/images/bg2.jpg"}
+            src={"/images/bg4.jpg"}
             alt="Partner"
             layout="fill"
             className="object-cover h-full w-full lg:rounded-l-lg"
