@@ -2,10 +2,7 @@
 
 import { Fragment, useState } from "react";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
-import {
-  XMarkIcon,
-  Bars3Icon,
-} from "@heroicons/react/24/outline";
+import { XMarkIcon, Bars3Icon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import { Logo } from "../Logo";
 
@@ -60,6 +57,12 @@ export default function Navbar() {
             className=" text-md   font-normal leading-6 text-black hover:text-emerald-700"
           >
             Our Products
+          </Link>{" "}
+          <Link
+            href="services"
+            className=" text-md   font-normal leading-6 text-black hover:text-emerald-700"
+          >
+            Our Services
           </Link>{" "}
           <Link
             href="team"
@@ -153,18 +156,19 @@ export default function Navbar() {
                 >
                   About Us
                 </Link>
-                {/* <Link
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-50"
-                >
-                  Our Services
-                </Link> */}
                 <Link
                   href="products"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-50"
                 >
                   Our Products
-                </Link>   <Link
+                </Link>{" "}
+                <Link
+                  href="services"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-50"
+                >
+                  Our Services
+                </Link>{" "}
+                <Link
                   href="team"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-50"
                 >
