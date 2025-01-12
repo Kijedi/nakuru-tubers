@@ -53,25 +53,25 @@ export default function Navbar() {
             About Us
           </Link>
           <Link
-            href="products"
+            href="/products"
             className=" text-md   font-normal leading-6 text-black hover:text-emerald-700"
           >
             Our Products
           </Link>{" "}
           <Link
-            href="services"
+            href="/services"
             className=" text-md   font-normal leading-6 text-black hover:text-emerald-700"
           >
             Our Services
           </Link>{" "}
           <Link
-            href="team"
+            href="/team"
             className=" text-md   font-normal leading-6 text-black hover:text-emerald-700"
           >
             Our Team
           </Link>
           <Link
-            href="contact"
+            href="/contact"
             className=" text-md   font-normal leading-6 text-black hover:text-emerald-700"
           >
             Contact Us
@@ -157,19 +157,19 @@ export default function Navbar() {
                   About Us
                 </Link>
                 <Link
-                  href="products"
+                  href="/products"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-50"
                 >
                   Our Products
                 </Link>{" "}
                 <Link
-                  href="services"
+                  href="/services"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-50"
                 >
                   Our Services
                 </Link>{" "}
                 <Link
-                  href="team"
+                  href="/team"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-50"
                 >
                   Our Team

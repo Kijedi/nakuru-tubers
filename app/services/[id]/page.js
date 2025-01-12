@@ -1,6 +1,9 @@
-import { services } from "@/components/data/services";
+import { services } from "../../../components/data/services";
+import Footer from "../../../components/UI/Footer";
+import Navbar from "../../../components/UI/Navbar";
 export default async function ServiceIndex({ params }) {
   const serviceId = (await params).id;
+  console.log(serviceId)
   const service = services[serviceId];
   return (
     <>
@@ -12,16 +15,18 @@ export default async function ServiceIndex({ params }) {
         >
           {" "}
           <div className="absolute z-10 w-3/5">
-            <p className="text-3xl lg:text-4xl z-10 font-medium  text-emerald-500">
+            <p className="text-3xl normal-case lg:text-6xl z-10 font-medium  text-emerald-500">
               {service.name}
             </p>
-            <p className="text-lg pt-2 lg:text-xl font-light  text-white">
+            <p className="text-lg pt-2 lg:text-2xl font-light  text-white">
               {service.description}
             </p>
           </div>
           <div className="absolute inset-x-0 top-0 z-0  h-full object-cover bg-gradient-to-r from-black/80 to-black/10"></div>
         </div>
       </div>
+      <div className="h-96 bg-white w-full"></div>
+      <Footer/>
     </>
   );
 }
