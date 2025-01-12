@@ -69,7 +69,7 @@ export default function Team() {
                     {person.lastName}
                   </span>
                 </p>
-                <p>{person.title}</p>
+                <p className="text-emerald-600 font-semibold">{person.title}</p>
               </div>
               <Link
                 href={person.social}
