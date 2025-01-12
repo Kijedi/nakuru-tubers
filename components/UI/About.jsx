@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { FaCheckDouble } from "react-icons/fa6";
+import { PiBinocularsDuotone } from "react-icons/pi";
+import { PiTargetDuotone } from "react-icons/pi";
 
 export default function Hero2() {
   return (
@@ -28,8 +30,8 @@ export default function Hero2() {
             serve 20,000 smallholder farmers by 2030, transforming potato
             farming in Kenya through climate-resilient, certified seed potato.
           </p>
-          <div className="flex gap-4 items-center bg-amber-50 p-4 rounded-lg border border-amber-500 shadow-md mt-10">
-            <Image src="/images/vision.png" height={80} width={80} />
+          <div className="flex relative gap-4 items-center bg-slate-50 border-gray-400 border p-4 rounded-lg bordershadow-md mt-8">
+            <PiBinocularsDuotone className="text-amber-500/20 right-4 absolute size-36" />
             <div>
               <h1 className="text-2xl font-bold text-amber-600">Vision</h1>
               <p className="text-gray-700 text-sm">
@@ -38,8 +40,8 @@ export default function Hero2() {
               </p>
             </div>
           </div>{" "}
-          <div className="flex gap-4 items-center bg-amber-50 p-4 rounded-lg border border-amber-500 shadow-md mt-10">
-            <Image src="/images/mission.png" height={80} width={80} />
+          <div className="flex relative gap-4 items-center bg-slate-50 border-gray-400 border p-4 rounded-lg bordershadow-md mt-8">
+            <PiTargetDuotone className="text-amber-500/20 right-4 absolute size-36" />
             <div>
               <h1 className="text-2xl font-bold text-amber-600">Mission</h1>
               <p className="text-gray-700 text-sm">
