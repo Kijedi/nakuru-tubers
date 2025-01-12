@@ -35,7 +35,7 @@ export default function Product() {
               <div class="max-w-3xl relative mx-auto grid md:grid-cols-5 grid-cols-1 gap-6 items-center rounded-2xl ">
                 <div class="md:col-span-2  lg:z-0 z-10 ml-4 md:ml-0 relative h-96 w-96">
                   <Image
-                    src={`/images/bg1.jpg`}
+                    src={product.image}
                     layout="fill"
                     class="rounded-xl object-cover"
                     alt=""
@@ -83,8 +83,8 @@ export default function Product() {
                   </div>
                   <div className="flex w-full justify-center">
                     <Link
-              href="contact"
-              className="bg-emerald-600 text-white rounded-md px-4 py-2 hover:-translate-y-1 duration-200 transition-all"
+                      href="contact"
+                      className="bg-emerald-600 text-white rounded-md px-4 py-2 hover:-translate-y-1 duration-200 transition-all"
                     >
                       Get in Touch
                     </Link>
