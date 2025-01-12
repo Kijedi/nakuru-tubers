@@ -8,7 +8,7 @@ export default function Home() {
       <Navbar />
       <div className="relative">
         <div className="relative  bg-[url('/images/products.jpg')] bg-center bg-cover text-white px-10 lg:px-24 py-10 lg:py-16 bg-blend-overlay h-72">
-          <div className="absolute z-10 w-3/5">
+          <div className="absolute z-10 md:w-3/5 pr-4">
             <p className="text-3xl lg:text-6xl z-10 font-medium  text-emerald-500">
               Our Products
             </p>

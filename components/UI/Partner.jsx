@@ -4,7 +4,7 @@ import { PiHandshakeDuotone } from "react-icons/pi";
 
 export default function Partner() {
   return (
-    <div className="bg-white py-20">
+    <div id="partner" className="bg-white py-20">
       <div className="w-full relative lg:max-w-6xl  grid grid-cols-5  mx-auto lg:shadow-2xl rounded-lg  text-black">
         <div className="w-full h-96 lg:h-full col-span-5 lg:col-span-2 relative rounded-l-lg">
           <Image

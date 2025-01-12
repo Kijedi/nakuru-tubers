@@ -15,7 +15,7 @@ export default async function ServiceIndex({ params }) {
           style={{ backgroundImage: `url(${service.image})` }}
         >
           {" "}
-          <div className="absolute z-10 w-3/5">
+          <div className="absolute z-10 md:w-3/5 pr-4">
             <p className="text-3xl normal-case lg:text-6xl z-10 font-medium  text-emerald-500">
               {service.name}
             </p>

@@ -2,10 +2,10 @@ import { FaXTwitter, FaLinkedinIn, FaFacebook} from "react-icons/fa6";
 
 const navigation = {
   main: [
-    { name: "About Us", href: "#" },
-    { name: "Partner With Us", href: "#" },
-    { name: "Our Packages", href: "#" },
-    { name: "Our Products", href: "#" },
+    { name: "About Us", href: "/#about" },
+    { name: "Partner With Us", href: "/#parter" },
+    { name: "Our Services", href: "/services" },
+    { name: "Our Products", href: "/products" },
   ],
   social: [
     {
