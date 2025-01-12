@@ -10,7 +10,7 @@ const offers = [
   {
     name: "Climate Change",
     desc: "Climate change has increased agricultural challenges leading to erratic weather, prolonged droughts, and increased pests and diseases outbreaks. These actors directly impact crop productivity and contribute to increased postharvest losses. Urgent action to adapt is essential to adapt to these changing conditions and mitigate the negative impacts on food security and livelihoods.",
-    image: "/images/offer/offer3.jpg",
+    image: "/images/offer/offer4.jpg",
   },
   {
     name: "Economic Development",
