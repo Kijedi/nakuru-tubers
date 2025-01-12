@@ -27,7 +27,7 @@ export default function Home() {
       <div className="bg-white p-5 md:p-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-2">
           {services.map((service, index) => (
-            <Link class="group" key={index} href={"#"}>
+            <Link class="group" key={index} href={`service/${index}`}>
               <div class="min-h-80 aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg relative ">
                 <div className="h-[450px] md:h-[600px]">
                   <Image
@@ -45,12 +45,15 @@ export default function Home() {
                   <p className="text-gray-300 tracking-wide h-20  text-sm">
                     {service.description}
                   </p>
-                  <div className=" rounded-full bg-white text-black group-hover:text-white group-hover:bg-emerald-600 backdrop-blur-sm  z-20 flex items-center justify-between px-4 mt-4 py-1">
+                  <Link
+                    href={`service/${index}`}
+                    className=" rounded-full bg-white text-black group-hover:text-white group-hover:bg-emerald-600 backdrop-blur-sm  z-20 flex items-center justify-between px-4 mt-4 py-1"
+                  >
                     <p className="text-sm font-semibold pl-2 tracking-wider uppercase">
                       View Service
                     </p>
                     <GoChevronRight className="size-8 group-hover:translate-x-2 transition-all duration-500" />
-                  </div>
+                  </Link>
                 </div>
               </div>
             </Link>
