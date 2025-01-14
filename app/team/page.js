@@ -12,7 +12,7 @@ export default function Team() {
       lastName: "Wambugu",
       title: "Founder",
       image: "/images/team/team1.jpeg",
-      social: "www.linkedin.com/in/winnie-wambugu",
+      social: "https://www.linkedin.com/in/winnie-wambugu",
     },
     {
       firstName: "Enock",
