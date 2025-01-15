@@ -5,7 +5,7 @@ import Navbar from "../components/UI/Navbar";
 import About from "../components/UI/About";
 import Offer from "../components/UI/Offer";
 import Partner from "../components/UI/Partner";
-import Price from "../components/UI/Packages";
+import Services from "../components/UI/Services";
 import Traction from "../components/UI/Traction";
 import Value from "../components/UI/Value";
 
@@ -20,7 +20,8 @@ export default function Home() {
       <Offer />
       <Partner />
       {/* <Price /> */}
-      {/* <Product /> */}
+   
+      <Services />
       <Footer />
     </>
   );
