@@ -1,4 +1,4 @@
-import { FaXTwitter, FaLinkedinIn, FaFacebook} from "react-icons/fa6";
+import { FaXTwitter, FaLinkedinIn, FaFacebook, FaInstagram} from "react-icons/fa6";
 
 const navigation = {
   main: [
@@ -24,6 +24,11 @@ const navigation = {
       name: "LinkedIn",
       href: "https://www.linkedin.com/company/nakuru-tubers/",
       icon: FaLinkedinIn
+    },  
+    {
+      name: "Instagram",
+      href: "https://www.instagram.com/nakurutubers?igsh=aGFpdXJkejVpdnZx",
+      icon: FaInstagram
     },
   ],
 };
