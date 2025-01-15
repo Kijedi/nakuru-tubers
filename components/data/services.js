@@ -1,10 +1,10 @@
 export const services = [
   {
-    name: "WARE POTATO",
+    name: "WARE Potato",
     description:
       "Certified seed potatoes produced under strict quality standards to ensure they are disease-free, resilient, and high-yielding.",
     image: "/images/bg1.jpg",
-
+    href: "/services/0",
     packages: [
       {
         name: "BASIC - Starter Pack",
@@ -66,10 +66,12 @@ export const services = [
     ],
   },
   {
-    name: "POST-HARVEST HANDLING",
+    name: "Post-harvest Handling",
     description:
       "Designed to equip farmers, cooperatives, and agribusinesses with the knowledge and tools they need to minimize losses and maximize profits.",
     image: "/images/bg4.jpg",
+    href: "/services/1",
+
     full_description:
       "Our Post-Harvest Handling Consultancy Package is designed to equip farmers, cooperatives, and agribusinesses with the knowledge and tools they need to minimize losses and maximize profits. This package ensures proper handling, storage, and market preparation of potatoes to maintain quality and meet market standards.",
     packages: [
@@ -169,10 +171,12 @@ export const services = [
     ],
   },
   {
-    name: "SEED POTATO MERCHANTS",
+    name: "Seed Potato Merchants",
     description:
       "Provides the foundational knowledge and guidance needed to embark on your seed potato journey.",
     image: "/images/services/service3.jpg",
+    href: "/services/2",
+
     full_description:
       "Our seed potato packages are tailored to provide farmers with the knowledge and tools they need to succeed in seed potato production, from foundational skills to advanced business strategies.",
     packages: [
@@ -249,8 +253,10 @@ export const services = [
     ],
   },
   {
-    name: "TRAINING AND CAPACITY BUILDING",
+    name: "Training and Capacity Buuilding",
     image: "/images/services/service2.jpg",
+    href: "/services/3",
+
     description:
       "Designed to empower farmers with the knowledge and skills they need to succeed in potato farming",
     full_description:

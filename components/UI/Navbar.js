@@ -2,9 +2,14 @@
 
 import { Fragment, useState } from "react";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
-import { XMarkIcon, Bars3Icon } from "@heroicons/react/24/outline";
+import {
+  XMarkIcon,
+  Bars3Icon,
+  ChevronDownIcon,
+} from "@heroicons/react/24/outline";
 import Link from "next/link";
 import { Logo } from "../Logo";
+import { services } from "../data/services";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -58,28 +63,10 @@ export default function Navbar() {
           >
             Our Products
           </Link>{" "}
-          <Link
-            href="/services"
-            className=" text-md   font-normal leading-6 text-black hover:text-emerald-700"
-          >
-            Our Services
-          </Link>{" "}
-          <Link
-            href="/team"
-            className=" text-md   font-normal leading-6 text-black hover:text-emerald-700"
-          >
-            Our Team
-          </Link>
-          <Link
-            href="/contact"
-            className=" text-md   font-normal leading-6 text-black hover:text-emerald-700"
-          >
-            Contact Us
-          </Link>
-          {/*
+   
           <Popover className="relative">
             <Popover.Button className="flex items-center gap-x-1 text-md   font-normal leading-6 text-black">
-              Form by Experience
+              Our Services
               <ChevronDownIcon
                 className="h-5 w-5 flex-none text-gray-400"
                 aria-hidden="true"
@@ -96,7 +83,7 @@ export default function Navbar() {
             >
               <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-sm overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
                 <div className="p-4">
-                  {cuisines.map((item) => (
+                  {services.map((item) => (
                     <div
                       key={item.name}
                       className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
@@ -115,7 +102,20 @@ export default function Navbar() {
                 </div>
               </Popover.Panel>
             </Transition>
-          </Popover> */}
+          </Popover>
+              
+          <Link
+            href="/team"
+            className=" text-md   font-normal leading-6 text-black hover:text-emerald-700"
+          >
+            Our Team
+          </Link>
+          <Link
+            href="/contact"
+            className=" text-md   font-normal leading-6 text-black hover:text-emerald-700"
+          >
+            Contact Us
+          </Link>
         </Popover.Group>
       </nav>
       <Dialog
@@ -162,29 +162,11 @@ export default function Navbar() {
                 >
                   Our Products
                 </Link>{" "}
-                <Link
-                  href="/services"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-50"
-                >
-                  Our Services
-                </Link>{" "}
-                <Link
-                  href="/team"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-50"
-                >
-                  Our Team
-                </Link>
-                <Link
-                  href="/contact"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-50"
-                >
-                  Contact Us
-                </Link>
-                {/* <Disclosure as="div" className="-mx-3">
+                <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
                       <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50">
-                        Form by Destination{" "}
+                        Our Services
                         <ChevronDownIcon
                           className={classNames(
                             open ? "rotate-180" : "",
@@ -194,7 +176,7 @@ export default function Navbar() {
                         />
                       </Disclosure.Button>
                       <Disclosure.Panel className="mt-2 space-y-2">
-                        {[...products].map((item) => (
+                        {[...services].map((item) => (
                           <Disclosure.Button
                             key={item.name}
                             as="a"
@@ -208,7 +190,19 @@ export default function Navbar() {
                     </>
                   )}
                 </Disclosure>{" "}
-                <Disclosure as="div" className="-mx-3">
+                <Link
+                  href="/team"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-50"
+                >
+                  Our Team
+                </Link>
+                <Link
+                  href="/contact"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-50"
+                >
+                  Contact Us
+                </Link>
+                {/*     <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
                       <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50">

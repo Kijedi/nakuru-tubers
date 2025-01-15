@@ -18,10 +18,9 @@ export default function Home() {
       <Value />
       <Traction />
       <Offer />
-      <Partner />
       {/* <Price /> */}
-   
       <Services />
+      <Partner />
       <Footer />
     </>
   );
