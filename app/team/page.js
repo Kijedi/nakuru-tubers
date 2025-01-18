@@ -10,15 +10,15 @@ export default function Team() {
     {
       firstName: "Winnie",
       lastName: "Wambugu",
-      title: "Founder",
+      title: "Co-founder and CEO",
       image: "/images/team/team1.jpeg",
       social: "https://www.linkedin.com/in/winnie-wambugu",
     },
     {
       firstName: "Enock",
       lastName: "Rugut",
-      title: "Chief Operating Officer",
-      image: "/images/team/team2.JPG",
+      title: "Co-founder and COO",
+      image: "/images/team/team2.jpeg",
       social: "https://www.linkedin.com/in/enock-rugut-kipkorir",
     },
     {
