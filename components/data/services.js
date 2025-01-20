@@ -1,9 +1,9 @@
 export const services = [
   {
-    name: "WARE Potato",
-    description:
-      "Certified seed potatoes produced under strict quality standards to ensure they are disease-free, resilient, and high-yielding.",
-    image: "/images/bg1.jpg",
+    name: "Ware Potato",
+    description: "We understand that every farmer's needs are unique. Our consultation packages are tailored to ensure you get the best guidance and support for successful potato farming."
+,    image: "/images/bg1.jpg",
+full_description:"We understand that every farmer's needs are unique. Our consultation packages are tailored to ensure you get the best guidance and support for successful potato farming.",
     href: "/services/0",
     packages: [
       {

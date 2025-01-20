@@ -1,4 +1,11 @@
-import { FaXTwitter, FaLinkedinIn, FaFacebook, FaInstagram, FaTiktok} from "react-icons/fa6";
+import {
+  FaXTwitter,
+  FaYoutube,
+  FaLinkedinIn,
+  FaFacebook,
+  FaInstagram,
+  FaTiktok,
+} from "react-icons/fa6";
 
 const navigation = {
   main: [
@@ -11,28 +18,34 @@ const navigation = {
     {
       name: "Facebook",
       href: "https://www.facebook.com/share/12CACMaC2mB/",
-      icon: FaFacebook
+      icon: FaFacebook,
     },
- 
+    {
+      name: "Youtube",
+      href: "https://www.youtube.com/@NakuruTubers",
+      icon: FaYoutube,
+    },
+
     {
       name: "Twitter",
       href: "https://x.com/NakuruTubers?t=qgLns5hH9WIBsK5S8-6FFg&s=09",
-      icon: FaXTwitter
+      icon: FaXTwitter,
     },
 
     {
       name: "LinkedIn",
       href: "https://www.linkedin.com/company/nakuru-tubers/",
-      icon: FaLinkedinIn
-    },  
+      icon: FaLinkedinIn,
+    },
     {
       name: "Instagram",
       href: "https://www.instagram.com/nakurutubers?igsh=aGFpdXJkejVpdnZx",
-      icon: FaInstagram
-    }, {
+      icon: FaInstagram,
+    },
+    {
       name: "Tiktok",
       href: "https://www.tiktok.com/@nakurutubers?_t=ZS-8t7AJvR1cDB&_r=1",
-      icon: FaTiktok
+      icon: FaTiktok,
     },
   ],
 };
