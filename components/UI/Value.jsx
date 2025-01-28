@@ -40,7 +40,7 @@ export default function Value() {
         <p class="font-chivo inline-block font-bold text-teal-600 bg-teal-600/10 py-[14px] px-[28px] rounded-[50px] text-[14px] leading-[14px] mb-[22px]">
          What we value
         </p>
-        <h3 class="font-chivo font-bold lg:text-heading-1 text-gray-500 md:text-3xl text-xl leading-9 mb-[22px]">
+        <h3 class="font-chivo font-normal lg:text-heading-1 text-gray-500 md:text-3xl text-xl leading-9 mb-[22px]">
         We are revolutionizing potato farming through innovative science and technology.        </h3>
       </div>
 

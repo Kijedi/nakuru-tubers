@@ -8,6 +8,8 @@ import Partner from "../components/UI/Partner";
 import Services from "../components/UI/Services";
 import Traction from "../components/UI/Traction";
 import Value from "../components/UI/Value";
+import Problem from "../components/UI/Problem";
+import Change from "../components/UI/Change";
 
 export default function Home() {
   return (
@@ -15,8 +17,10 @@ export default function Home() {
       <Navbar />
       <Hero2 />
       <About />
-      <Value />
       <Traction />
+      <Value />
+      <Problem />
+      <Change />
       <Offer />
       {/* <Price /> */}
       <Services />
