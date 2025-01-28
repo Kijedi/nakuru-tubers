@@ -10,10 +10,10 @@ export default function Services() {
         <p class="font-chivo inline-block font-bold text-teal-600 bg-teal-600/10 py-[14px] px-[28px] rounded-[50px] text-[14px] leading-[14px] mb-[22px]">
           Our Services
         </p>
-        <h3 class="font-chivo font-bold lg:text-heading-1 text-emerald-600 md:text-3xl text-xl leading-9 mb-[22px]">
+        <h3 class="font-chivo font-bold lg:text-heading-1 text-emerald-600 md:text-5xl text-2xl leading-9 mb-[22px]">
           Empowering Farmers, Elevating Potato Production
         </h3>{" "}
-        <h3 class="font-chivo font-bold lg:text-heading-1 text-gray-500 md:text-xl text-xl leading-9 mb-[22px]">
+        <h3 class="font-chivo lg:text-heading-1 text-gray-500 md:text-xl text-xl leading-9 mb-[22px]">
           At Nakuru Tubers, we provide tailored consultancy services to help
           farmers, cooperatives, and organizations maximize yields, improve
           quality, and access premium markets. From foundational training to
