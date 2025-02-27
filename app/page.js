@@ -10,6 +10,7 @@ import Traction from "../components/UI/Traction";
 import Value from "../components/UI/Value";
 import Problem from "../components/UI/Problem";
 import Change from "../components/UI/Change";
+import Partners from "../components/UI/Partners";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <Offer />
       {/* <Price /> */}
       <Services />
+      <Partners />
       <Partner />
       <Footer />
     </>
