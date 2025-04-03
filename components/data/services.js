@@ -253,7 +253,7 @@ full_description:"We understand that every farmer's needs are unique. Our consul
     ],
   },
   {
-    name: "Training and Capacity Buuilding",
+    name: "Training and Capacity Building",
     image: "/images/services/service2.jpg",
     href: "/services/3",
 
