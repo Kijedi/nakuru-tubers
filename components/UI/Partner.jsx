@@ -25,7 +25,7 @@ export default function Partner() {
             priority
             unoptimized
           />
-        <div className="col-span-5 lg:col-span-3 bg-amber-50 p-4 lg:rounded-r-lg">
+        <div className="col-span-5 lg:col-span-3 bg-orange-50 p-4 lg:rounded-r-lg">
           <div className="lg:p-16">
             <h1 className="font-bold text-slate-900 text-xl sm:text-3xl">
               Partner with Us

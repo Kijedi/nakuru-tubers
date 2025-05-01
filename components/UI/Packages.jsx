@@ -11,7 +11,7 @@ export default function Price({ service }) {
     <div class="px-[12px] md:px-[36px] py-12 bg-white relative xl:px-0 lg:py-20">
 
       <div class="text-center relative z-10">
-        <span class="font-chivo uppercase inline-block text-amber-600 bg-amber-600/10 font-semibold tracking-wide py-[14px] px-[28px] rounded-[50px] text-[14px] leading-[14px] mb-[22px]">
+        <span class="font-chivo uppercase inline-block text-orange-600 bg-orange-600/10 font-semibold tracking-wide py-[14px] px-[28px] rounded-[50px] text-[14px] leading-[14px] mb-[22px]">
           {service.name} Packages
         </span>
         <h2 class="font-bold font-chivo mx-auto text-2xl leading-[44px] md:text-4xl  text-emerald-600 mb-5 md:mb-[30px] max-w-xl">

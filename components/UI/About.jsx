@@ -20,7 +20,7 @@ export default function Hero2() {
           <span class="font-chivo inline-block text-teal-600 bg-teal-600/10 font-medium py-[14px] px-[28px] rounded-[50px] text-[14px] leading-[14px] mb-[22px]">
             About Us
           </span>
-          <h3 class="font-chivo font-black text-emerald-600 text-4xl md:text-3xl mb-[22px]">
+          <h3 class="font-chivo font-black text-emerald-600 text-2xl md:text-3xl mb-[22px]">
             Unlocking Kenya’s smallholder potato farmers’ productivity potential{" "}
           </h3>
           <p class="text-quote md:text-lead-lg text-sm text-gray-600 mb-2">
@@ -31,9 +31,9 @@ export default function Hero2() {
             farming in Kenya through climate-resilient, certified seed potato.
           </p>
           <div className="flex relative gap-4 items-center bg-slate-50 border-gray-400 border p-4 rounded-lg bordershadow-md mt-8">
-            <PiBinocularsDuotone className="text-amber-500/20 right-4 absolute size-28" />
+            <PiBinocularsDuotone className="text-orange-500/20 right-4 absolute size-28" />
             <div>
-              <h1 className="text-xl font-bold text-amber-600">Vision</h1>
+              <h1 className="text-xl font-bold text-orange-600">Vision</h1>
               <p className="text-gray-700 text-sm">
                 To revolutionize potato farming in Africa through innovation,
                 resilience, and climate-smart potato solutions.
@@ -41,9 +41,9 @@ export default function Hero2() {
             </div>
           </div>{" "}
           <div className="flex relative gap-4 items-center bg-slate-50 border-gray-400 border p-4 rounded-lg bordershadow-md mt-8">
-            <PiTargetDuotone className="text-amber-500/20 right-4 absolute size-28" />
+            <PiTargetDuotone className="text-orange-500/20 right-4 absolute size-28" />
             <div>
-              <h1 className="text-xl font-bold text-amber-600">Mission</h1>
+              <h1 className="text-xl font-bold text-orange-600">Mission</h1>
               <p className="text-gray-700 text-sm">
                 To provide certified seed potatoes and innovative training
                 solutions that empower 700,000 smallholder farmers in Kenya to

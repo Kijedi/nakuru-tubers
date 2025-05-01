@@ -48,11 +48,11 @@ export default function Home() {
                   Saturday and Sunday: <span className="text-black">Closed</span>
                 </p>
                 <Link href="tel:+254728771406" class="text-lg text-gray-600 underline flex gap-x-2 py-3 items-center">
-                  <PiPhoneCall className="text-amber-600 size-8" />
+                  <PiPhoneCall className="text-orange-600 size-8" />
                   +254728771406{" "}
                 </Link>
                 <Link href="mailto:info@nakurutubers.com" class="text-lg text-gray-600 underline flex gap-x-2 items-center">
-                  <IoMailOutline className="text-amber-600 size-8" />
+                  <IoMailOutline className="text-orange-600 size-8" />
                   info@nakurutubers.com{" "}
                 </Link>
               </div>

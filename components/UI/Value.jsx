@@ -52,8 +52,8 @@ export default function Value() {
               key={index}
               className="p-4 md:p-8 cursor-pointer border group shadow-lg text-gray-500 my-6 md:my-0 first:bg-emerald-600 first:text-white hover:bg-emerald-600 hover:text-white ease-in-out hover:-translate-y-2 transition-all duration-200 rounded-lg border-emerald-600"
             >
-              <Icon className="size-10 md:size-12 group-hover:text-amber-500 duration-200 ease-in-out " />
-              <p className="text-lg py-2 group-hover:text-amber-500 text-emerald-600 group-first:text-white duration-200 ease-in-out font-semibold">{value.name}</p>
+              <Icon className="size-10 md:size-12 group-hover:text-orange-500 duration-200 ease-in-out " />
+              <p className="text-lg py-2 group-hover:text-orange-500 text-emerald-600 group-first:text-white duration-200 ease-in-out font-semibold">{value.name}</p>
               <p className="text-md">{value.description}</p>
             </div>
           );

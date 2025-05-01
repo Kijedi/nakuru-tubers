@@ -34,7 +34,7 @@ export default function Team() {
     <>
       <Navbar />
       <div className="relative">
-        <div className="relative lg:h-[500px]  bg-[url('/images/products.jpg')] bg-center bg-cover text-white px-10 lg:px-24 py-10 lg:py-16 bg-blend-overlay h-72">
+        <div className="relative lg:h-[500px]  bg-[url('/images/team/team.jpg')] saturate-150 bg-top bg-cover text-white px-10 lg:px-24 py-10 lg:py-16 bg-blend-overlay h-72">
           <div className="absolute bottom-20 z-10 md:w-3/5 pr-4">
             <p className="text-3xl lg:text-6xl z-10 font-medium  text-emerald-500">
               Meet Our Team
@@ -61,7 +61,7 @@ export default function Team() {
                 <Image
                   src={person.image}
                   layout="fill"
-                  className="object-cover object-top rounded-t-lg"
+                  className="object-cover object-top rounded-t-lg saturate-150"
                 />
               </div>
               <div className="p-4 text-gray-800 bg-white">

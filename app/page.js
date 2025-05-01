@@ -11,6 +11,8 @@ import Value from "../components/UI/Value";
 import Problem from "../components/UI/Problem";
 import Change from "../components/UI/Change";
 import Partners from "../components/UI/Partners";
+import Impact from "../components/UI/Impact";
+
 
 export default function Home() {
   return (
@@ -21,9 +23,10 @@ export default function Home() {
       <Traction />
       <Value />
       <Problem />
+      <Impact />
+
       <Change />
-      <Offer />
-      {/* <Price /> */}
+
       <Services />
       <Partners />
       <Partner />

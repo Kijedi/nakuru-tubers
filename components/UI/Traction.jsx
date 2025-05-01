@@ -29,12 +29,12 @@ export default function Traction() {
         {numbers.map((number, index) => (
           <li
             key={index}
-            className=" col-span-3 lg:col-span-2 py-4 border shadow-lg  bg-amber-50 border-amber-500  rounded-lg lg:m-0 flex flex-col lg:p-2"
+            className=" col-span-3 lg:col-span-2 py-4 border shadow-lg  bg-orange-50 border-orange-500  rounded-lg lg:m-0 flex flex-col lg:p-2"
           >
             <p className="text-3xl flex lg:text-5xl md:py-2 text-gray-500 px-4 tracking-wide uppercase">
               {isInView && <CountUp delay={1} end={number.number} />} +
             </p>
-            <p className="text-lg lg:text-lg font-bold pb-2  text-amber-600 px-4">
+            <p className="text-lg lg:text-lg font-bold pb-2  text-orange-600 px-4">
               {number.name}
             </p>
           </li>

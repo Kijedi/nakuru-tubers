@@ -45,7 +45,7 @@ const Partners = () => {
         <h3 class="font-chivo font-bold lg:text-heading-1 text-emerald-600 md:text-4xl text-2xl leading-9 mb-[22px]">
           Partnering for Sustainable Potato Farming{" "}
         </h3>
-        <p class="font-chivo lg:text-heading-1 text-gray-600 md:text-sm text-sm leading-9 mb-[22px]">
+        <p class="font-chivo lg:text-heading-1 text-gray-600 md:text-sm text-sm mb-[22px]">
           We collaborate with organizations and experts to promote
           climate-smart, certified seed potatoes and innovative farming
           solutions. Together, we empower smallholder farmers to boost yields,
@@ -63,7 +63,7 @@ const Partners = () => {
                 width={120}
                 className=" "
               />
-              <p className="absolute bottom-3 font-medium group-hover:underline  underline-offset-2 tracking-wider text-md text-amber-700">
+              <p className="absolute bottom-3 font-medium group-hover:underline  underline-offset-2 tracking-wider text-md text-orange-700">
                 {partner.name}
               </p>
             </div>

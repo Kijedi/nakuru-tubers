@@ -37,7 +37,7 @@ export default function Product() {
                   <Image
                     src={product.image}
                     layout="fill"
-                    class="rounded-xl object-cover"
+                    class="rounded-xl object-cover saturate-150"
                     alt=""
                   />
                 </div>
