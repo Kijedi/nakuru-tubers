@@ -6,7 +6,7 @@ import { GoChevronRight } from "react-icons/go";
 export default function Services() {
   return (
     <div className="bg-white p-10 md:p-12">
-      <div className="max-w-4xl mx-auto flex items-center flex-col text-center my-4 md:my-8">
+      <div className="max-w-4xl mx-auto flex items-center flex-col text-center my-4 ">
         <p class="font-chivo inline-block font-bold text-teal-600 bg-teal-600/10 py-[14px] px-[28px] rounded-[50px] text-[14px] leading-[14px] mb-[22px]">
           Our Services
         </p>

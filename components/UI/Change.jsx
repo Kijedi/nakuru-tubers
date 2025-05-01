@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Change() {
   return (
-    <div className="bg-white p-10 lg:p-28 gap-8 flex flex-col items-center justify-center">
+    <div className="bg-white p-16 gap-8 flex flex-col items-center justify-center">
       <div className="max-w-3xl text-center mx-auto flex flex-col gap-y-6 items-center justify-center">
         <h3 class="font-black text-emerald-600 text-4xl  mb-[22px]">
           Our Theory of <span className="text-orange-600">Change</span>
