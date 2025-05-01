@@ -17,10 +17,10 @@ export default function Product() {
         <span class="font-chivo inline-block bg-bg-2 text-yellow-500 bg-yellow-500/20 font-bold py-[14px] px-[28px] rounded-[50px] text-[14px] leading-[14px] mb-[22px]">
           Our Products and Services
         </span>
-        <h3 class="font-chivo font-bold lg:text-heading-1 text-emerald-600 md:text-[46px] md:leading-[52px] text-[35px] leading-[44px]">
+        <h3 class="font-chivo font-bold lg:text-heading-1 text-emerald-600 md:text-4xl text-2xl">
           Your Trusted Partner for high quality certified seed potato
         </h3>
-        <p className="text-lg text-gray-500 py-3">
+        <p className="text-sm text-gray-500 py-3">
           At Nakuru Tubers, we offer a range of innovative and high-quality
           products designed to support smallholder farmers in Kenya. Our
           products are rooted in science and research, providing farmers with

@@ -20,13 +20,13 @@ export default function Navbar() {
   return (
     <header className="bg-white/90 top-0 sticky z-20   shadow-lg">
       <nav
-        className="mx-auto flex max-w-7xl items-center justify-between py-3 px-5 lg:px-8"
+        className="mx-auto flex max-w-7xl items-center justify-between py-2 px-5 lg:px-8"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Nakuru Tubers</span>
-            <Logo dark={true} className="h-12 w-auto text-slate-900" />
+            <Logo dark={true} className="h-10 w-auto text-slate-900" />
             {/* <img
               className="h-10 lg:h-12 w-auto"
               src="/images/logo.png"
@@ -47,25 +47,25 @@ export default function Navbar() {
         <Popover.Group className="hidden lg:flex lg:items-center lg:gap-x-12">
           <Link
             href="/"
-            className=" text-md   font-normal leading-6 text-black hover:text-emerald-700"
+            className=" text-sm   font-normal leading-6 text-black hover:text-emerald-700"
           >
             Home
           </Link>{" "}
           <Link
             href="/#about"
-            className=" text-md  font-normal leading-6 text-black hover:text-emerald-700"
+            className=" text-sm   font-normal leading-6 text-black hover:text-emerald-700"
           >
             About Us
           </Link>
           <Link
             href="/products"
-            className=" text-md   font-normal leading-6 text-black hover:text-emerald-700"
+            className=" text-sm   font-normal leading-6 text-black hover:text-emerald-700"
           >
             Our Products
           </Link>{" "}
    
           <Popover className="relative">
-            <Popover.Button className="flex items-center gap-x-1 text-md   font-normal leading-6 text-black">
+            <Popover.Button className="flex items-center gap-x-1 text-sm   font-normal leading-6 text-black">
               Our Services
               <ChevronDownIcon
                 className="h-5 w-5 flex-none text-gray-400"
@@ -106,13 +106,13 @@ export default function Navbar() {
               
           <Link
             href="/team"
-            className=" text-md   font-normal leading-6 text-black hover:text-emerald-700"
+            className=" text-sm   font-normal leading-6 text-black hover:text-emerald-700"
           >
             Our Team
           </Link>
           <Link
             href="/contact"
-            className=" text-md   font-normal leading-6 text-black hover:text-emerald-700"
+            className=" text-sm   font-normal leading-6 text-black hover:text-emerald-700"
           >
             Contact Us
           </Link>

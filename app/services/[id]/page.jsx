@@ -11,15 +11,15 @@ export default async function ServiceIndex({ params }) {
       <Navbar />
       <div className="relative">
         <div
-          className="relative bg-center bg-cover text-white px-10 lg:px-24 py-10 lg:py-16 bg-blend-overlay h-96"
+          className="relative lg:h-[500px]  bg-center bg-cover text-white px-10 lg:px-24 py-10 lg:py-16 bg-blend-overlay h-96"
           style={{ backgroundImage: `url(${service.image})` }}
         >
           {" "}
-          <div className="absolute z-10 md:w-3/5 pr-4 ">
-            <p className="text-3xl normal-case lg:text-6xl z-10 font-semibold  text-emerald-500">
-              {service.name}
+          <div className="absolute bottom-20 z-10 md:w-3/5 pr-4">
+          <p className="text-3xl lg:text-6xl z-10 font-medium  text-emerald-500">
+          {service.name}
             </p>
-            <p className="text-lg pt-2 lg:text-2xl font-light  text-white">
+            <p className="text-lg pt-2 lg:text-xl font-light  text-white">
               {service.full_description}
             </p>
           </div>

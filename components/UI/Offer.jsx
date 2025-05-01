@@ -30,7 +30,7 @@ export default function Offer() {
           width={80}
           alt="pattern icon"
         />
-        <div class="text-center relative mb-[70px] md:mb-[90px]">
+        <div class="text-center relative mb-[70px] md:mb-10">
           <h2 class="font-bold font-chivo mx-auto text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 text-white mb-5 md:mb-[30px] max-w-[725px]">
             Why We Do What We Do
           </h2>
@@ -51,11 +51,11 @@ export default function Offer() {
                   alt=""
                 />
               </div>
-              <div className="p-8">
-                <h3 class=" text-emerald-600 font-bold text-2xl md:text-heading-5 mb-[20px]">
+              <div className="p-6">
+                <h3 class=" text-emerald-600 font-bold text-xl md:text-heading-5 mb-3">
                   {offer.name}{" "}
                 </h3>
-                <p class="text-text text-gray-600">{offer.desc}</p>
+                <p class="text-sm text-gray-600">{offer.desc}</p>
               </div>
             </div>
           ))}

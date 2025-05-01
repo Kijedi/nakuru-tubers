@@ -40,7 +40,7 @@ export default function Value() {
         <p class="font-chivo inline-block font-bold text-teal-600 bg-teal-600/10 py-[14px] px-[28px] rounded-[50px] text-[14px] leading-[14px] mb-[22px]">
          What we value
         </p>
-        <h3 class="font-chivo font-normal lg:text-heading-1 text-gray-500 md:text-3xl text-xl leading-9 mb-[22px]">
+        <h3 class="font-chivo font-normal lg:text-heading-1 text-gray-500 md:text-xl text-xl leading-9 mb-[22px]">
         We are revolutionizing potato farming through innovative science and technology.        </h3>
       </div>
 
@@ -52,9 +52,9 @@ export default function Value() {
               key={index}
               className="p-4 md:p-8 cursor-pointer border group shadow-lg text-gray-500 my-6 md:my-0 first:bg-emerald-600 first:text-white hover:bg-emerald-600 hover:text-white ease-in-out hover:-translate-y-2 transition-all duration-200 rounded-lg border-emerald-600"
             >
-              <Icon className="size-12 md:size-16 group-hover:text-amber-500 duration-200 ease-in-out " />
-              <p className="text-xl py-2 group-hover:text-amber-500 text-emerald-600 group-first:text-white duration-200 ease-in-out font-semibold">{value.name}</p>
-              <p className="text-lg">{value.description}</p>
+              <Icon className="size-10 md:size-12 group-hover:text-amber-500 duration-200 ease-in-out " />
+              <p className="text-lg py-2 group-hover:text-amber-500 text-emerald-600 group-first:text-white duration-200 ease-in-out font-semibold">{value.name}</p>
+              <p className="text-md">{value.description}</p>
             </div>
           );
         })}

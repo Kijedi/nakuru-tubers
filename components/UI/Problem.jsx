@@ -5,7 +5,7 @@ import { PiTargetDuotone } from "react-icons/pi";
 
 export default function Problem() {
   return (
-    <div id="about" class="p-8 md:p-40 bg-white">
+    <div id="about" class="p-8 md:p-20 bg-white">
       <div class="lg:grid lg:grid-cols-2 lg:gap-[30px] xl:gap-[95px] items-center">
         <div className="flex items-center justify-end ">
           <div class="relative h-[500px] w-[600px] shadow-lg my-10">
@@ -23,7 +23,7 @@ export default function Problem() {
             What’s the challenge with{" "}
             <span className="text-emerald-600 ">potato farming in Kenya?</span>
           </h3>
-          <p class="text-quote md:text-lead-lg text-lg text-gray-600 mb-2">
+          <p class="text-quote md:text-lead-lg text-lg text-gray-600 mb-2 text-justify">
             98% of Kenya’s smallholder potato farmers rely on farm-saved seeds
             and traditional methods, leading to low yields of 9-10 t/ha compared
             to the potential 20-40 t/ha. Erratic weather, prolonged droughts,
@@ -33,13 +33,13 @@ export default function Problem() {
           </p>
         </div>
       </div>
-      <div class="lg:grid mt-40 lg:grid-cols-2 lg:gap-[30px] xl:gap-[95px] items-center">
+      <div class="lg:grid mt-20 lg:grid-cols-2 lg:gap-[30px] xl:gap-[95px] items-center">
         <div class="">
           <h3 class="font-chivo font-black text-gray-500 text-4xl md:text-5xl mb-[22px]">
             How are we solving{" "}
             <span className="text-amber-600 ">the problem?</span>
           </h3>
-          <p class="text-quote md:text-lead-lg text-lg text-gray-600 mb-2">
+          <p class="text-quote md:text-lead-lg text-md text-gray-600 mb-2">
             At Nakuru Tubers, we are revolutionizing potato farming through
             innovative science and technology. Using hydroponics, aeroponics,
             and tissue culture, we produce certified, climate-resilient seed
@@ -56,7 +56,7 @@ export default function Problem() {
           </p>
         </div>
         <div className="flex items-center justify-start ">
-          <div class="relative md:h-[700px] rounded-xl shadow-lg h-[500px] my-10 w-[600px] ">
+          <div class="relative md:h-[500px] rounded-xl shadow-lg h-[500px] my-10 w-[600px] ">
             <Image
               class="rounded-2xl"
               src={`/images/product1.jpeg`}
