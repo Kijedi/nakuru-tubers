@@ -11,7 +11,7 @@ export default function Price({ service }) {
     <div class="px-[12px] md:px-[36px] py-12 bg-white relative xl:px-0 lg:py-20">
 
       <div class="text-center relative z-10">
-        <span class="font-chivo uppercase inline-block text-orange-600 bg-orange-600/10 font-semibold tracking-wide py-[14px] px-[28px] rounded-[50px] text-[14px] leading-[14px] mb-[22px]">
+        <span class="font-chivo uppercase inline-block text-orange-600 bg-orange-600/10  tracking-wide py-2 px-[28px] rounded-[50px] text-xs leading-[14px] mb-[22px]">
           {service.name} Packages
         </span>
         <h2 class="font-bold font-chivo mx-auto text-2xl leading-[44px] md:text-4xl  text-emerald-600 mb-5 md:mb-[30px] max-w-xl">
@@ -23,10 +23,10 @@ export default function Price({ service }) {
           {service.packages.map((pkg) => (
             <div class="rounded-2xl group even:bg-emerald-600 md:py-[53px] md:px-[48px] shadow-lg shadow-gray-300 bg-white/80 flex flex-col justify-between transition-all duration-300 package-card p-[35px] border border-gray-900 bill-annually">
               <div>
-                <p class="text-heading-3 font-bold text-black group-even:text-white text-3xl font-chivo">
+                <p class="text-heading-3 font-semibold text-black group-even:text-white text-3xl font-chivo">
                   {pkg.price}
                 </p>
-                <h5 class="text-heading-5 font-chivo group-even:text-yellow-400 text-emerald-600 pb-3 font-bold ">
+                <h5 class="text-heading-5 font-chivo group-even:text-yellow-400 text-emerald-600 pb-3 font-semibold ">
                   {pkg.name}
                 </h5>
                 {/* <p class="text-heading-3 font-bold text-gray-600 group-even:text-gray-200 text-sm py-4 font-chivo">

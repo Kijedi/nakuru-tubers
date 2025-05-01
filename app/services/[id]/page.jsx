@@ -16,10 +16,10 @@ export default async function ServiceIndex({ params }) {
         >
           {" "}
           <div className="absolute bottom-20 z-10 md:w-3/5 pr-4">
-          <p className="text-3xl lg:text-6xl z-10 font-medium  text-emerald-500">
+          <p className="text-3xl lg:text-5xl z-10 font-medium  text-emerald-500">
           {service.name}
             </p>
-            <p className="text-lg pt-2 lg:text-xl font-light  text-white">
+            <p className="text-lg pt-2 lg:text-sm font-light  text-white">
               {service.full_description}
             </p>
           </div>

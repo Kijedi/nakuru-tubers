@@ -36,7 +36,7 @@ const contents = [
       "We drive inclusive participation in agriculture by centering women and youth in leadership, production, and service delivery, ensuring equitable and sustainable rural transformation.",
   },
   {
-    image: "/images/pillars/4.jpg",
+    image: "/images/pillars/7.jpg",
     title: "",
     description: "",
   },
