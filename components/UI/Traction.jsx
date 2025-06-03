@@ -11,7 +11,7 @@ const numbers = [
   },
   {
     name: "Farmers Reached",
-    number: 5000,
+    number: 14000,
   },
   {
     name: "Counties Served",
