@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
-import Footer from "../../components/ui/Footer";
-import Navbar from "../../components/ui/Navbar";
+import Footer from "@/components/ui/Footer";
+import Navbar from "@/components/ui/Navbar";
 import { getProducts } from "@/utils/appwrite";
 import { Button } from "@/components/ui/button";
 import { IoCartOutline } from "react-icons/io5";
