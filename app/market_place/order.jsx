@@ -1,16 +1,18 @@
-import {
-  Sheet,
-  SheetContent,
-  SheetHeader,
-  SheetTitle,
-} from "@/components/ui/sheet";
+
 import { Button } from "@/components/ui/button";
 import {Input}  from "@/components/ui/input";
 import { useState } from "react";
 import { LuTrash2 } from "react-icons/lu";
 import { placeOrder } from "@/utils/appwrite";
 import { toast } from "sonner";
-
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet"
 export default function PlaceOrder({ cart, open, setOpen, setCart }) {
   const [loading, setLoading] = useState(false);
   const [form, setForm] = useState({
