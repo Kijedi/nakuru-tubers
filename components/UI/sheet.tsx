@@ -127,7 +127,7 @@ function SheetDescription({
   )
 }
 
-export {
+export default {
   Sheet,
   SheetTrigger,
   SheetClose,
