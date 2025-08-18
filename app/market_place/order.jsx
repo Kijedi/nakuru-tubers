@@ -4,7 +4,7 @@ import {
   SheetHeader,
   SheetTitle,
 } from "@/components/ui/sheet";
-import  {Button}  from "@/components/ui/button"
+import { Button } from "@/components/ui/button";
 import {Input}  from "@/components/ui/input";
 import { useState } from "react";
 import { LuTrash2 } from "react-icons/lu";
