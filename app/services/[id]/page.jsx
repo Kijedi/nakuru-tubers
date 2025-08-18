@@ -1,7 +1,7 @@
 import { services } from "../../../components/data/services";
-import Footer from "../../../components/yu/Footer";
-import Navbar from "../../../components/yu/Navbar";
-import Price from "../../../components/yu/Packages";
+import Footer from "../../../components/ui/Footer";
+import Navbar from "../../../components/ui/Navbar";
+import Price from "../../../components/ui/Packages";
 export default async function ServiceIndex({ params }) {
   const serviceId = (await params).id;
   console.log(serviceId);

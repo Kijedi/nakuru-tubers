@@ -1,6 +1,6 @@
-import Footer from "../../components/yu/Footer";
-import Navbar from "../../components/yu/Navbar";
-import Product from "../../components/yu/Product";
+import Footer from "../../components/ui/Footer";
+import Navbar from "../../components/ui/Navbar";
+import Product from "../../components/ui/Product";
 
 export default function Home() {
   return (
