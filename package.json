@@ -40,5 +40,8 @@
     "eslint-config-next": "15.3.2",
     "tailwindcss": "^4",
     "tw-animate-css": "^1.2.9"
-  }
+  },
+  "overrides": {
+  "react-is": "^19.0.0"
+}
 }

@@ -81,7 +81,7 @@ export default function MarketPlace() {
       </div>
       <div className="bg-white p-10 flex flex-col gap-4 lg:p-20 text-black relative">
         {categories.map((category) => (
-          <div key={category.id} className="border-b pb-8 mb-8 border-gray-400">
+          <div key={category.$id} className="border-b pb-8 mb-8 border-gray-400">
             <h2 className="text-2xl lg:text-4xl text-emerald-600 font-medium mb-4 capitalize">
               {category.category_name + "s"}
             </h2>

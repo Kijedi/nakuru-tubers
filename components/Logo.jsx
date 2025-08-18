@@ -3,7 +3,7 @@
 import Image from "next/image";
 import logo from "../public/images/logo.png";
 export function Logo({ dark }) {
-  return <Image src={logo} height={50} />;
+  return <Image alt="Logo" src={logo} height={50} />;
 
 
 }
