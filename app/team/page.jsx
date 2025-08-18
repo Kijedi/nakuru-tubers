@@ -1,6 +1,6 @@
-import Footer from "../../components/UI/Footer";
-import Navbar from "../../components/UI/Navbar";
-import Product from "../../components/UI/Product";
+import Footer from "../../components/ui/Footer";
+import Navbar from "../../components/ui/Navbar";
+import Product from "../../components/ui/Product";
 import { FaLinkedinIn } from "react-icons/fa6";
 import Image from "next/image";
 import Link from "next/link";

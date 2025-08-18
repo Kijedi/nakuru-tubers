@@ -1,17 +1,17 @@
 // import Product from "../components/UI/Product";
-import Footer from "../components/UI/Footer";
-import Hero2 from "../components/UI/Hero2";
-import Navbar from "../components/UI/Navbar";
-import About from "../components/UI/About";
-import Offer from "../components/UI/Offer";
-import Partner from "../components/UI/Partner";
-import Services from "../components/UI/Services";
-import Traction from "../components/UI/Traction";
-import Value from "../components/UI/Value";
-import Problem from "../components/UI/Problem";
-import Change from "../components/UI/Change";
-import Partners from "../components/UI/Partners";
-import Impact from "../components/UI/Impact";
+import Footer from "../components/ui/Footer";
+import Hero2 from "../components/ui/Hero2";
+import Navbar from "../components/ui/Navbar";
+import About from "../components/ui/About";
+import Offer from "../components/ui/Offer";
+import Partner from "../components/ui/Partner";
+import Services from "../components/ui/Services";
+import Traction from "../components/ui/Traction";
+import Value from "../components/ui/Value";
+import Problem from "../components/ui/Problem";
+import Change from "../components/ui/Change";
+import Partners from "../components/ui/Partners";
+import Impact from "../components/ui/Impact";
 
 
 export default function Home() {

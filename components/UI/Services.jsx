@@ -1,4 +1,4 @@
-import { services } from "../../components/data/services";
+import { services } from "../data/services";
 import Image from "next/image";
 import Link from "next/link";
 import { GoChevronRight } from "react-icons/go";

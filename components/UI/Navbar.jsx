@@ -63,7 +63,6 @@ export default function Navbar() {
           >
             Our Products
           </Link>{" "}
-   
           <Popover className="relative">
             <Popover.Button className="flex items-center gap-x-1 text-sm   font-normal leading-6 text-black">
               Our Services
@@ -103,12 +102,17 @@ export default function Navbar() {
               </Popover.Panel>
             </Transition>
           </Popover>
-              
           <Link
             href="/team"
             className=" text-sm   font-normal leading-6 text-black hover:text-emerald-700"
           >
             Our Team
+          </Link>{" "}
+          <Link
+            href="/market_place"
+            className=" text-sm   font-normal leading-6 text-black hover:text-emerald-700"
+          >
+            Market Place
           </Link>
           <Link
             href="/contact"

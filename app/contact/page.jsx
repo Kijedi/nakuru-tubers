@@ -1,6 +1,6 @@
 import { Logo } from "../../components/Logo";
-import Footer from "../../components/UI/Footer";
-import Navbar from "../../components/UI/Navbar";
+import Footer from "../../components/ui/Footer";
+import Navbar from "../../components/ui/Navbar";
 import { ArrowRightIcon, EnvelopeIcon } from "@heroicons/react/24/outline";
 import { PiPhoneCall } from "react-icons/pi";
 import { IoMailOutline } from "react-icons/io5";

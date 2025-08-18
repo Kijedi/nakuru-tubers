@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import { Toaster } from "@/components/ui/sonner";
 
-const inter = Poppins({ weight: ["400","100","200","300","400","500", "600"], subsets: ["latin",] });
+const inter = Poppins({
+  weight: ["400", "100", "200", "300", "400", "500", "600"],
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "Nakuru Tubers",
@@ -16,7 +20,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <Toaster richColors/>
+      </body>
     </html>
   );
 }
