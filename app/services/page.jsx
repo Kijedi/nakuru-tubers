@@ -1,6 +1,6 @@
-import Footer from "../../components/ui/Footer";
-import Navbar from "../../components/ui/Navbar";
-import Services from "../../components/ui/Services";
+import Footer from "../../components/yu/Footer";
+import Navbar from "../../components/yu/Navbar";
+import Services from "../../components/yu/Services";
 import { services } from "../../components/data/services";
 import Image from "next/image";
 import Link from "next/link";

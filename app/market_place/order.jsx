@@ -3,9 +3,9 @@ import {
   SheetContent,
   SheetHeader,
   SheetTitle,
-} from "@/components/ui/sheet";
-import { Button } from "@/components/ui/button";
-import {Input}  from "@/components/ui/input";
+} from "@/components/yu/sheet";
+import { Button } from "@/components/yu/button";
+import {Input}  from "@/components/yu/input";
 import { useState } from "react";
 import { LuTrash2 } from "react-icons/lu";
 import { placeOrder } from "@/utils/appwrite";

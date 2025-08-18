@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
-import Footer from "@/components/ui/Footer";
-import Navbar from "@/components/ui/Navbar";
+import Footer from "@/components/yu/Footer";
+import Navbar from "@/components/yu/Navbar";
 import { getProducts } from "@/utils/appwrite";
 
 import { IoCartOutline } from "react-icons/io5";
@@ -9,11 +9,11 @@ import {
   Popover,
   PopoverTrigger,
   PopoverContent,
-} from "@/components/ui/popover";
+} from "@/components/yu/popover";
 import { useEffect, useState } from "react";
 import { toast } from "sonner";
 import PlaceOrder from "./order";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/yu/button";
 
 export default function MarketPlace() {
   const [cart, setCart] = useState([]);

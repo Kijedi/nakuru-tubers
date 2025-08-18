@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
-import { Toaster } from "@/components/ui/sonner";
+import { Toaster } from "@/components/yu/sonner";
 
 const inter = Poppins({
   weight: ["400", "100", "200", "300", "400", "500", "600"],
