@@ -42,14 +42,14 @@ export default function Home() {
               <div>
                 <p class="text-xl text-emerald-600">Open hours</p>
                 <p class="text-lg text-gray-500 py-1">
-                  Monday-Friday: <span className="text-black">9am-5.00pm</span>
+                  Monday-Saturday: <span className="text-black">9am-5.00pm</span>
                 </p>{" "}
                 <p class="text-lg text-gray-500 pb-4">
-                  Saturday and Sunday: <span className="text-black">Closed</span>
+                  Sunday: <span className="text-black">Closed</span>
                 </p>
                 <Link href="tel:+254728771406" class="text-lg text-gray-600 underline flex gap-x-2 py-3 items-center">
                   <PiPhoneCall className="text-orange-600 size-8" />
-                  +254728771406{" "}
+                  +254(0) 111 510 152{" "}
                 </Link>
                 <Link href="mailto:info@nakurutubers.com" class="text-lg text-gray-600 underline flex gap-x-2 items-center">
                   <IoMailOutline className="text-orange-600 size-8" />
