@@ -42,7 +42,7 @@ export default function Home() {
               <div>
                 <p class="text-xl text-emerald-600">Open hours</p>
                 <p class="text-lg text-gray-500 py-1">
-                  Monday-Saturday: <span className="text-black">9am-5.00pm</span>
+                  Monday-Saturday: <span className="text-black">9.00am-5.00pm</span>
                 </p>{" "}
                 <p class="text-lg text-gray-500 pb-4">
                   Sunday: <span className="text-black">Closed</span>

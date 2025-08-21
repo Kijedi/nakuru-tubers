@@ -6,6 +6,11 @@ const nextConfig = {
         protocol: "https",
         hostname: "nyc.cloud.appwrite.io",
         pathname: "/**"
+      },
+      {
+        protocol: "https",
+        hostname: "yali-expo.nyc3.cdn.digitaloceanspaces.com",
+        pathname: "/**"
       }
     ],
   },

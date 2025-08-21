@@ -94,7 +94,9 @@ export default function MarketPlace() {
                 >
                   <div className="h-72 relative">
                     <Image
-                      src={"/images/products/thunder.png"}
+                      src={product.image || "/images/products/thunder.png"}
+                      placeholder="blur"
+                      blurDataURL="/images/products/thunder.png"
                       alt={product.name}
                       layout="fill"
                       className="object-contain bg-gray-100"
