@@ -67,10 +67,10 @@ export default function MarketPlace() {
       <div className="relative">
         <div className="relative lg:h-[500px]  bg-[url('/images/team/team.jpg')] saturate-150 bg-top bg-cover text-white px-10 lg:px-24 py-10 lg:py-16 bg-blend-overlay h-72">
           <div className="absolute bottom-20 z-10 md:w-3/5 pr-4">
-            <p className="text-3xl lg:text-6xl z-10 font-medium  text-emerald-500">
+            <p className="text-2xl lg:text-4xl z-10 font-medium  text-emerald-500">
               Welcome to Our Market Place
             </p>
-            <p className="text-lg pt-2 lg:text-xl font-light  text-white">
+            <p className="text-sm pt-2 lg:text-lg font-light  text-white">
               Explore a wide range of high-quality certified seed potatoes and
               agricultural products. Our marketplace connects you with trusted
               suppliers, ensuring you have access to the best resources for your
