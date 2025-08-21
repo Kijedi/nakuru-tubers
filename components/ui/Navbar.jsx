@@ -199,6 +199,11 @@ export default function Navbar() {
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-50"
                 >
                   Our Team
+                </Link><Link
+                  href="/market_place"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-50"
+                >
+                  Market Place
                 </Link>
                 <Link
                   href="/contact"
