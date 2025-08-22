@@ -56,7 +56,14 @@ export default function MarketPlace() {
     // Fetch categories and products from the server
     const fetchCategories = async () => {
       const categories = await getProducts();
-      setCategories(categories);
+      const potatoes = categories.filter((p) =>
+        p.category_name.toLowerCase().includes("potato")
+      );
+      const otherProducts = categories.filter(
+        (p) => !p.category_name.toLowerCase().includes("potato")
+      );
+      const sortedCategories = [...potatoes, ...otherProducts];
+      setCategories(sortedCategories);
     };
     fetchCategories();
   }, []);
@@ -82,7 +89,10 @@ export default function MarketPlace() {
       </div>
       <div className="bg-white p-10 flex flex-col gap-4 lg:p-20 text-black relative">
         {categories.map((category) => (
-          <div key={category.$id} className="border-b pb-8 mb-8 border-gray-400">
+          <div
+            key={category.$id}
+            className="border-b pb-8 mb-8 border-gray-400"
+          >
             <h2 className="text-2xl lg:text-4xl text-emerald-600 font-medium mb-4 capitalize">
               {category.category_name + "s"}
             </h2>
@@ -173,7 +183,12 @@ export default function MarketPlace() {
             <p className="hidden">Complete Order</p>
           </div>
         </div>
-        <PlaceOrder cart={cart} open={open} setOpen={setOpen} setCart={setCart} />
+        <PlaceOrder
+          cart={cart}
+          open={open}
+          setOpen={setOpen}
+          setCart={setCart}
+        />
       </div>
 
       <Footer />
