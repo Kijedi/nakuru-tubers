@@ -45,9 +45,7 @@ export default function Product() {
                   <h2 class="text-2xl font-semibold text-gray-950">
                     {product.name}
                   </h2>
-                  <p class="text-sm font-medium text-gray-500 flex items-center">
-                    <i class="ti ti-map-pin text-base"></i>SF, Bay Area
-                  </p>
+                  
                   <p class="text-base font-medium text-gray-500 mt-3">
                     {product.description}
                   </p>
