@@ -1,36 +1,31 @@
-// import Product from "../components/UI/Product";
-import Footer from "../components/ui/Footer";
-import Hero2 from "../components/ui/Hero2";
-import Navbar from "../components/ui/Navbar";
-import About from "../components/ui/About";
-import Offer from "../components/ui/Offer";
-import Partner from "../components/ui/Partner";
-import Services from "../components/ui/Services";
-import Traction from "../components/ui/Traction";
-import Value from "../components/ui/Value";
-import Problem from "../components/ui/Problem";
-import Change from "../components/ui/Change";
-import Partners from "../components/ui/Partners";
-import Impact from "../components/ui/Impact";
-
+import FooterModern from "../components/ui/FooterModern";
+import HeroModern from "../components/ui/HeroModern";
+import NavbarModern from "../components/ui/NavbarModern";
+import AboutModern from "../components/ui/AboutModern";
+import StatsModern from "../components/ui/StatsModern";
+import ValuesModern from "../components/ui/ValuesModern";
+import ProblemSolutionModern from "../components/ui/ProblemSolutionModern";
+import ImpactModern from "../components/ui/ImpactModern";
+import TheoryOfChangeModern from "../components/ui/TheoryOfChangeModern";
+import ServicesModern from "../components/ui/ServicesModern";
+import PartnersModern from "../components/ui/PartnersModern";
+import PartnerCtaModern from "../components/ui/PartnerCtaModern";
 
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <Hero2 />
-      <About />
-      <Traction />
-      <Value />
-      <Problem />
-      <Impact />
-
-      <Change />
-
-      <Services />
-      <Partners />
-      <Partner />
-      <Footer />
+      <NavbarModern />
+      <HeroModern />
+      <AboutModern />
+      <StatsModern />
+      <ValuesModern />
+      <ProblemSolutionModern />
+      <ImpactModern />
+      <TheoryOfChangeModern />
+      <ServicesModern />
+      <PartnersModern />
+      <PartnerCtaModern />
+      <FooterModern />
     </>
   );
 }
