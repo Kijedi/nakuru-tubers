@@ -9,11 +9,11 @@ import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 
 const heroImages = [
-  "/images/pillars/5.jpg",
-  "/images/pillars/1.jpg",
-  "/images/pillars/2.jpg",
-  "/images/pillars/6.jpg",
-  "/images/pillars/7.jpg",
+  { src: "/images/pillars/5.jpg", alt: "Potato farming and food security in Kenya" },
+  { src: "/images/pillars/1.jpg", alt: "Women and youth empowerment in agriculture" },
+  { src: "/images/pillars/2.jpg", alt: "Job creation through potato farming" },
+  { src: "/images/pillars/6.jpg", alt: "Digital innovation in agriculture" },
+  { src: "/images/pillars/7.jpg", alt: "Sustainable farming practices" },
 ];
 
 export default function HeroModern() {
@@ -86,8 +86,8 @@ export default function HeroModern() {
             className="absolute inset-0"
           >
             <Image
-              src={heroImages[activeIndex]}
-              alt="Potato farming in Kenya"
+              src={heroImages[activeIndex].src}
+              alt={heroImages[activeIndex].alt}
               fill
               priority
               className="object-cover saturate-[1.2]"
@@ -287,8 +287,8 @@ export default function HeroModern() {
                   }`}
                 >
                   <Image
-                    src={img}
-                    alt={`Gallery ${index + 1}`}
+                    src={img.src}
+                    alt={img.alt}
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-110"
                   />

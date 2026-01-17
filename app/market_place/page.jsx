@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Head from "next/head";
 import Footer from "@/components/ui/Footer";
 import Navbar from "@/components/ui/Navbar";
 import { getProducts } from "@/utils/appwrite";
@@ -70,21 +71,28 @@ export default function MarketPlace() {
 
   return (
     <>
+      <Head>
+        <title>Marketplace - Buy Certified Seed Potatoes | Nakuru Tubers</title>
+        <meta
+          name="description"
+          content="Shop certified seed potatoes and agricultural products online. Buy directly from Nakuru Tubers marketplace with delivery across Kenya."
+        />
+      </Head>
       <Navbar />
       <div className="relative">
-        <div className="relative lg:h-[500px]  bg-[url('/images/team/team.jpg')] saturate-150 bg-top bg-cover text-white px-10 lg:px-24 py-10 lg:py-16 bg-blend-overlay h-72">
+        <div className="relative lg:h-[500px] bg-[url('/images/team/team.jpg')] saturate-150 bg-top bg-cover text-white px-10 lg:px-24 py-10 lg:py-16 bg-blend-overlay h-72">
           <div className="absolute bottom-20 z-10 md:w-3/5 pr-4">
-            <p className="text-2xl lg:text-4xl z-10 font-medium  text-emerald-500">
-              Welcome to Our Market Place
-            </p>
-            <p className="text-sm pt-2 lg:text-lg font-light  text-white">
+            <h1 className="text-2xl lg:text-4xl z-10 font-medium text-emerald-500">
+              Welcome to Our Marketplace
+            </h1>
+            <p className="text-sm pt-2 lg:text-lg font-light text-white">
               Explore a wide range of high-quality certified seed potatoes and
               agricultural products. Our marketplace connects you with trusted
               suppliers, ensuring you have access to the best resources for your
               farming needs.
             </p>
           </div>
-          <div className="absolute inset-x-0 top-0 z-0  h-full object-cover bg-gradient-to-r from-black/80 to-black/10"></div>
+          <div className="absolute inset-x-0 top-0 z-0 h-full object-cover bg-gradient-to-r from-black/80 to-black/10"></div>
         </div>
       </div>
       <div className="bg-white p-10 flex flex-col gap-4 lg:p-20 text-black relative">
