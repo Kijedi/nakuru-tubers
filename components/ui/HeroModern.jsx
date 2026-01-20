@@ -149,19 +149,7 @@ export default function HeroModern() {
         className="relative z-10 flex h-full flex-col justify-center px-6 lg:px-20"
       >
         <div className="max-w-4xl">
-          {/* Badge */}
-          <motion.div
-            custom={0}
-            initial="hidden"
-            animate="visible"
-            variants={textVariants}
-            className="mb-6"
-          >
-            <span className="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-4 py-2 text-sm font-medium text-emerald-400 backdrop-blur-sm">
-              <span className="h-2 w-2 animate-pulse rounded-full bg-emerald-400" />
-              Certified Seed Potato Specialists
-            </span>
-          </motion.div>
+         
 
           {/* Main Heading */}
           <motion.h1
