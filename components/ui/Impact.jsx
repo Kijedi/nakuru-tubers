@@ -31,9 +31,9 @@ const contents = [
   },
   {
     image: null,
-    title: "Women and Youth Empowerment",
+    title: "Inclusivity",
     description:
-      "We drive inclusive participation in agriculture by centering women and youth in leadership, production, and service delivery, ensuring equitable and sustainable rural transformation.",
+      "We drive inclusive participation in agriculture by centering women, differently abled persons and youth in leadership, production, and service delivery, ensuring equitable and sustainable rural transformation.",
   },
   {
     image: "/images/pillars/7.jpg",

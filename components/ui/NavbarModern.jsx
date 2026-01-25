@@ -1,20 +1,36 @@
 "use client";
 
-import { Fragment, useState, useEffect } from "react";
-import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
-import { XMarkIcon, Bars3Icon, ChevronDownIcon } from "@heroicons/react/24/outline";
+import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
+import { Dialog } from "@headlessui/react";
+import { XMarkIcon, Bars3Icon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import { Logo } from "../Logo";
-import { services } from "../data/services";
 import { motion } from "framer-motion";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
+const navigation = [
+  { name: "Home", href: "/" },
+  { name: "About Us", href: "/about" },
+  { name: "Services", href: "/services" },
+  { name: "Last Mile", href: "/last-mile" },
+  { name: "Impact", href: "/impact" },
+  { name: "Team", href: "/team" },
+  { name: "Shop", href: "/market_place" },
+];
+
 export default function NavbarModern() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname();
+
+  const isActive = (href) => {
+    if (href === "/") return pathname === "/";
+    return pathname.startsWith(href);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -32,7 +48,7 @@ export default function NavbarModern() {
       className={classNames(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-500",
         scrolled
-          ? "bg-white/90 shadow-lg shadow-black/5 backdrop-blur-lg"
+          ? "bg-white/95 shadow-lg shadow-black/5 backdrop-blur-lg"
           : "bg-transparent"
       )}
     >
@@ -72,100 +88,20 @@ export default function NavbarModern() {
         </div>
 
         {/* Desktop Navigation */}
-        <Popover.Group className="hidden lg:flex lg:items-center lg:gap-x-1">
-          {[
-            { name: "Home", href: "/" },
-            { name: "About Us", href: "/#about" },
-            { name: "Products", href: "/products" },
-          ].map((item) => (
+        <div className="hidden lg:flex lg:items-center lg:gap-x-1">
+          {navigation.map((item) => (
             <Link
               key={item.name}
               href={item.href}
               className={classNames(
                 "rounded-full px-4 py-2 text-sm font-medium transition-all duration-300",
-                scrolled
-                  ? "text-gray-700 hover:bg-gray-100 hover:text-emerald-600"
-                  : "text-white/90 hover:bg-white/10 hover:text-white"
-              )}
-            >
-              {item.name}
-            </Link>
-          ))}
-
-          {/* Services Dropdown */}
-          <Popover className="relative">
-            {({ open }) => (
-              <>
-                <Popover.Button
-                  className={classNames(
-                    "flex items-center gap-x-1 rounded-full px-4 py-2 text-sm font-medium outline-none transition-all duration-300",
-                    scrolled
-                      ? "text-gray-700 hover:bg-gray-100 hover:text-emerald-600"
-                      : "text-white/90 hover:bg-white/10 hover:text-white",
-                    open && (scrolled ? "bg-gray-100" : "bg-white/10")
-                  )}
-                >
-                  Services
-                  <ChevronDownIcon
-                    className={classNames(
-                      "h-4 w-4 transition-transform duration-300",
-                      open && "rotate-180"
-                    )}
-                    aria-hidden="true"
-                  />
-                </Popover.Button>
-
-                <Transition
-                  as={Fragment}
-                  enter="transition ease-out duration-200"
-                  enterFrom="opacity-0 translate-y-2"
-                  enterTo="opacity-100 translate-y-0"
-                  leave="transition ease-in duration-150"
-                  leaveFrom="opacity-100 translate-y-0"
-                  leaveTo="opacity-0 translate-y-2"
-                >
-                  <Popover.Panel className="absolute left-1/2 top-full z-10 mt-3 w-screen max-w-sm -translate-x-1/2 overflow-hidden rounded-2xl bg-white shadow-xl ring-1 ring-gray-900/5">
-                    <div className="p-2">
-                      {services.map((item, index) => (
-                        <Link
-                          key={item.name}
-                          href={`/services/${index}`}
-                          className="group flex items-center gap-x-4 rounded-xl p-3 transition-colors hover:bg-emerald-50"
-                        >
-                          <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg bg-emerald-100 text-emerald-600 transition-colors group-hover:bg-emerald-500 group-hover:text-white">
-                            <span className="text-sm font-bold">
-                              {String(index + 1).padStart(2, "0")}
-                            </span>
-                          </div>
-                          <div>
-                            <p className="font-semibold text-gray-900 group-hover:text-emerald-600">
-                              {item.name}
-                            </p>
-                            <p className="mt-0.5 text-xs text-gray-500 line-clamp-1">
-                              {item.description}
-                            </p>
-                          </div>
-                        </Link>
-                      ))}
-                    </div>
-                  </Popover.Panel>
-                </Transition>
-              </>
-            )}
-          </Popover>
-
-          {[
-            { name: "Team", href: "/team" },
-            { name: "Market Place", href: "/market_place" },
-          ].map((item) => (
-            <Link
-              key={item.name}
-              href={item.href}
-              className={classNames(
-                "rounded-full px-4 py-2 text-sm font-medium transition-all duration-300",
-                scrolled
-                  ? "text-gray-700 hover:bg-gray-100 hover:text-emerald-600"
-                  : "text-white/90 hover:bg-white/10 hover:text-white"
+                isActive(item.href)
+                  ? scrolled
+                    ? "bg-emerald-100 text-emerald-700"
+                    : "bg-white/20 text-white"
+                  : scrolled
+                    ? "text-gray-700 hover:bg-gray-100 hover:text-emerald-600"
+                    : "text-white/90 hover:bg-white/10 hover:text-white"
               )}
             >
               {item.name}
@@ -184,7 +120,7 @@ export default function NavbarModern() {
           >
             Contact Us
           </Link>
-        </Popover.Group>
+        </div>
       </nav>
 
       {/* Mobile Menu */}
@@ -215,59 +151,17 @@ export default function NavbarModern() {
           <div className="mt-8 flow-root">
             <div className="-my-6 divide-y divide-gray-100">
               <div className="space-y-1 py-6">
-                {[
-                  { name: "Home", href: "/" },
-                  { name: "About Us", href: "/#about" },
-                  { name: "Products", href: "/products" },
-                ].map((item) => (
+                {navigation.map((item) => (
                   <Link
                     key={item.name}
                     href={item.href}
                     onClick={() => setMobileMenuOpen(false)}
-                    className="block rounded-xl px-4 py-3 text-base font-semibold text-gray-900 hover:bg-emerald-50 hover:text-emerald-600"
-                  >
-                    {item.name}
-                  </Link>
-                ))}
-
-                {/* Services Accordion */}
-                <Disclosure as="div">
-                  {({ open }) => (
-                    <>
-                      <Disclosure.Button className="flex w-full items-center justify-between rounded-xl px-4 py-3 text-base font-semibold text-gray-900 hover:bg-emerald-50">
-                        Services
-                        <ChevronDownIcon
-                          className={classNames(
-                            "h-5 w-5 transition-transform duration-200",
-                            open && "rotate-180"
-                          )}
-                        />
-                      </Disclosure.Button>
-                      <Disclosure.Panel className="mt-1 space-y-1 pl-4">
-                        {services.map((item, index) => (
-                          <Link
-                            key={item.name}
-                            href={`/services/${index}`}
-                            onClick={() => setMobileMenuOpen(false)}
-                            className="block rounded-lg px-4 py-2 text-sm text-gray-600 hover:bg-emerald-50 hover:text-emerald-600"
-                          >
-                            {item.name}
-                          </Link>
-                        ))}
-                      </Disclosure.Panel>
-                    </>
-                  )}
-                </Disclosure>
-
-                {[
-                  { name: "Team", href: "/team" },
-                  { name: "Market Place", href: "/market_place" },
-                ].map((item) => (
-                  <Link
-                    key={item.name}
-                    href={item.href}
-                    onClick={() => setMobileMenuOpen(false)}
-                    className="block rounded-xl px-4 py-3 text-base font-semibold text-gray-900 hover:bg-emerald-50 hover:text-emerald-600"
+                    className={classNames(
+                      "block rounded-xl px-4 py-3 text-base font-semibold",
+                      isActive(item.href)
+                        ? "bg-emerald-100 text-emerald-700"
+                        : "text-gray-900 hover:bg-emerald-50 hover:text-emerald-600"
+                    )}
                   >
                     {item.name}
                   </Link>

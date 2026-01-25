@@ -10,7 +10,7 @@ import Autoplay from "embla-carousel-autoplay";
 
 const heroImages = [
   { src: "/images/pillars/5.jpg", alt: "Potato farming and food security in Kenya" },
-  { src: "/images/pillars/1.jpg", alt: "Women and youth empowerment in agriculture" },
+  { src: "/images/pillars/1.jpg", alt: "Inclusivity in agriculture" },
   { src: "/images/pillars/2.jpg", alt: "Job creation through potato farming" },
   { src: "/images/pillars/6.jpg", alt: "Digital innovation in agriculture" },
   { src: "/images/pillars/7.jpg", alt: "Sustainable farming practices" },

@@ -15,18 +15,13 @@ import { FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
 
 const navigation = {
   main: [
-    { name: "About Us", href: "/#about" },
-    { name: "Our Services", href: "/services" },
-    { name: "Our Products", href: "/products" },
+    { name: "About Us", href: "/about" },
+    { name: "Services", href: "/services" },
+    { name: "Last Mile", href: "/last-mile" },
+    { name: "Impact", href: "/impact" },
     { name: "Team", href: "/team" },
-    { name: "Market Place", href: "/market_place" },
+    { name: "Shop", href: "/market_place" },
     { name: "Contact", href: "/contact" },
-  ],
-  services: [
-    { name: "Ware Potato", href: "/services/0" },
-    { name: "Post-harvest Handling", href: "/services/1" },
-    { name: "Seed Potato Merchants", href: "/services/2" },
-    { name: "Training Programs", href: "/services/3" },
   ],
   social: [
     {
@@ -65,25 +60,13 @@ const navigation = {
 export default function FooterModern() {
   return (
     <footer className="relative overflow-hidden bg-gray-900">
-      {/* Background Elements */}
-      <div className="absolute inset-0">
-        <div className="absolute left-0 top-0 h-96 w-96 rounded-full bg-emerald-500/10 blur-3xl" />
-        <div className="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-orange-500/10 blur-3xl" />
+      {/* Subtle Background */}
+      <div className="absolute inset-0 opacity-30">
+        <div className="absolute left-0 top-0 h-64 w-64 rounded-full bg-emerald-500/10 blur-3xl" />
+        <div className="absolute bottom-0 right-0 h-64 w-64 rounded-full bg-emerald-500/5 blur-3xl" />
       </div>
 
-      {/* Grid Pattern */}
-      <div className="absolute inset-0 opacity-5">
-        <div
-          className="h-full w-full"
-          style={{
-            backgroundImage: `linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px),
-                             linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)`,
-            backgroundSize: "40px 40px",
-          }}
-        />
-      </div>
-
-      <div className="relative mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-24">
+      <div className="relative mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-20">
         {/* Top Section */}
         <div className="grid gap-12 lg:grid-cols-4 lg:gap-8">
           {/* Brand Column */}
@@ -100,6 +83,15 @@ export default function FooterModern() {
               <div className="flex items-center gap-3 text-sm text-gray-400">
                 <FaMapMarkerAlt className="h-4 w-4 text-emerald-500" />
                 <span>Nakuru, Kenya</span>
+              </div>
+              <div className="flex items-center gap-3 text-sm text-gray-400">
+                <FaPhone className="h-4 w-4 text-emerald-500" />
+                <a
+                  href="tel:+254717327217"
+                  className="transition-colors hover:text-white"
+                >
+                  0717 327 217
+                </a>
               </div>
               <div className="flex items-center gap-3 text-sm text-gray-400">
                 <FaEnvelope className="h-4 w-4 text-emerald-500" />
@@ -132,22 +124,44 @@ export default function FooterModern() {
             </ul>
           </div>
 
-          {/* Services */}
+          {/* Impact Areas */}
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider text-white">
-              Our Services
+              Our Impact
             </h3>
             <ul className="mt-4 space-y-3">
-              {navigation.services.map((item) => (
-                <li key={item.name}>
-                  <Link
-                    href={item.href}
-                    className="text-sm text-gray-400 transition-colors hover:text-emerald-400"
-                  >
-                    {item.name}
-                  </Link>
-                </li>
-              ))}
+              <li>
+                <Link
+                  href="/impact#food-security"
+                  className="text-sm text-gray-400 transition-colors hover:text-emerald-400"
+                >
+                  Food Security
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/impact#job-creation"
+                  className="text-sm text-gray-400 transition-colors hover:text-emerald-400"
+                >
+                  Job Creation
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/impact#digitalization"
+                  className="text-sm text-gray-400 transition-colors hover:text-emerald-400"
+                >
+                  Digitalization
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/impact#inclusivity"
+                  className="text-sm text-gray-400 transition-colors hover:text-emerald-400"
+                >
+                  Inclusivity
+                </Link>
+              </li>
             </ul>
           </div>
 

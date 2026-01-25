@@ -45,7 +45,7 @@ export default function Problem() {
             and tissue culture, we produce certified, climate-resilient seed
             potato varieties that enhance yields and enable sustainable
             adaptation to changing climates. Our comprehensive approach includes
-            empowering farmers—particularly women and youth—through training in
+            empowering farmers—particularly women, differently abled persons and youth—through training in
             climate-smart practices, postharvest handling, disease management,
             and financial literacy. Additionally, we facilitate market access,
             offering end-to-end support for an integrated and seamless farming

@@ -24,9 +24,9 @@ const pillars = [
   },
   {
     icon: FaUsers,
-    title: "Women & Youth Empowerment",
+    title: "Inclusivity",
     description:
-      "Driving inclusive participation by centering women and youth in leadership, production, and service delivery.",
+      "We drive inclusive participation in agriculture by centering women, differently abled persons and youth in leadership, production, and service delivery.",
     image: "/images/pillars/1.jpg",
     color: "emerald",
   },
