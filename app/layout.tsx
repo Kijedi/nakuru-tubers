@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
+import WhatsAppButton from "@/components/ui/WhatsAppButton";
 
 const inter = Poppins({
   weight: ["400", "100", "200", "300", "400", "500", "600"],
@@ -84,6 +85,7 @@ export default function RootLayout({
         <main>
           {children}
           <Toaster richColors />
+          <WhatsAppButton />
         </main>
       </body>
     </html>

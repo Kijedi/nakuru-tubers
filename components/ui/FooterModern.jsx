@@ -90,7 +90,7 @@ export default function FooterModern() {
                   href="tel:+254717327217"
                   className="transition-colors hover:text-white"
                 >
-                  0717 327 217
+                  0717 327 327
                 </a>
               </div>
               <div className="flex items-center gap-3 text-sm text-gray-400">

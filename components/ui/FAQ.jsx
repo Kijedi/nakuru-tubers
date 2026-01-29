@@ -112,7 +112,7 @@ export default function FAQ() {
               href="tel:+254717327217"
               className="font-semibold text-emerald-600 hover:underline"
             >
-              Call us at 0717 327 217
+              Call us at 0717 327 327
             </a>{" "}
             or{" "}
             <a

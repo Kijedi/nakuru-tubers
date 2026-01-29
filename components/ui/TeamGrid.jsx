@@ -14,13 +14,13 @@ const team = [
     image: "/images/team/team1.jpeg",
     social: "https://www.linkedin.com/in/winnie-wambugu",
   },
-  {
-    firstName: "Enock",
-    lastName: "Rugut",
-    title: "Co-founder and COO",
-    image: "/images/team/team2.jpeg",
-    social: "https://www.linkedin.com/in/enock-rugut-kipkorir",
-  },
+  // {
+  //   firstName: "Enock",
+  //   lastName: "Rugut",
+  //   title: "Co-founder and COO",
+  //   image: "/images/team/team2.jpeg",
+  //   social: "https://www.linkedin.com/in/enock-rugut-kipkorir",
+  // },
   {
     firstName: "Gailyne",
     lastName: "Kimani",

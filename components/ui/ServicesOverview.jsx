@@ -229,7 +229,7 @@ export default function ServicesOverview() {
                 href="tel:+254717327217"
                 className="rounded-full border border-white/20 px-8 py-4 font-semibold text-white transition-colors hover:bg-white/10"
               >
-                Call: 0717 327 217
+                Call: 0717 327 327
               </a>
             </div>
           </div>

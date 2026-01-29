@@ -124,24 +124,7 @@ export default function PartnersModern() {
           </div>
         </div>
 
-        {/* Infinite Scroll Banner */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={isInView ? { opacity: 1 } : {}}
-          transition={{ delay: 0.8, duration: 0.6 }}
-          className="mt-16 overflow-hidden rounded-2xl bg-gradient-to-r from-emerald-600 to-teal-600 py-4"
-        >
-          <div className="flex animate-marquee items-center gap-12 whitespace-nowrap">
-            {[...partners, ...partners].map((partner, index) => (
-              <span
-                key={index}
-                className="text-sm font-medium uppercase tracking-widest text-white/80"
-              >
-                {partner.name}
-              </span>
-            ))}
-          </div>
-        </motion.div>
+     
 
         {/* Become a Partner */}
         <motion.div

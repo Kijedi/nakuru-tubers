@@ -3,6 +3,7 @@ import FooterModern from "@/components/ui/FooterModern";
 import ContactHero from "@/components/ui/ContactHero";
 import ContactForm from "@/components/ui/ContactForm";
 import FAQ from "@/components/ui/FAQ";
+import LocationMap from "@/components/ui/LocationMap";
 
 export const metadata = {
   title: "Contact Us - Get Expert Potato Farming Advice",
@@ -25,6 +26,7 @@ export default function ContactPage() {
       <NavbarModern />
       <ContactHero />
       <ContactForm />
+      <LocationMap />
       <FAQ />
       <FooterModern />
     </>

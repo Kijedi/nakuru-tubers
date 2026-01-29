@@ -17,7 +17,7 @@ export const faqs = [
   {
     question: "What is the minimum order quantity?",
     answer:
-      "For smallholder farmers, we have no minimum order - you can order as little as 50kg. For bulk orders and cooperatives, we offer volume discounts starting from 500kg.",
+      "The minimum order quantity is 10,000kg. For bulk orders and cooperatives, we offer volume discounts.",
   },
   {
     question: "Do you provide training for farmers?",

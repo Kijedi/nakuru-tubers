@@ -9,7 +9,7 @@ const contactInfo = [
   {
     icon: FaPhone,
     title: "Phone",
-    value: "0717 327 217",
+    value: "0717 327 327",
     href: "tel:+254717327217",
   },
   {
