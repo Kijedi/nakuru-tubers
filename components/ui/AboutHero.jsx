@@ -9,7 +9,7 @@ export default function AboutHero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/pillars/5.jpg"
+          src="/images/training/training1.jpg"
           alt="Potato farming in Kenya"
           fill
           priority
@@ -86,25 +86,7 @@ export default function AboutHero() {
         </div>
       </div>
 
-      {/* Side Image Gallery - Desktop */}
-      <div className="absolute bottom-32 right-8 hidden gap-4 lg:flex">
-        {["/images/pillars/1.jpg", "/images/pillars/2.jpg"].map((src, index) => (
-          <motion.div
-            key={index}
-            initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 0.5 + index * 0.15, duration: 0.6 }}
-            className="relative h-40 w-32 overflow-hidden rounded-2xl border-2 border-white/20 shadow-2xl"
-          >
-            <Image
-              src={src}
-              alt="Farm imagery"
-              fill
-              className="object-cover"
-            />
-          </motion.div>
-        ))}
-      </div>
+   
     </section>
   );
 }

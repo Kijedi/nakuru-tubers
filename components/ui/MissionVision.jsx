@@ -29,7 +29,7 @@ export default function MissionVision() {
               {/* Image */}
               <div className="relative mb-8 h-72 overflow-hidden rounded-3xl lg:h-80">
                 <Image
-                  src="/images/pillars/7.jpg"
+                  src="/images/training/training3.jpg"
                   alt="Farmers working in potato field"
                   fill
                   className="object-cover"

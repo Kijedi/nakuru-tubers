@@ -29,7 +29,7 @@ const services = [
     title: "Consultation Services",
     description:
       "Expert agronomic support tailored to your farm's needs, from soil assessment to harvest optimization.",
-    image: "/images/pillars/2.jpg",
+    image: "/images/training/training3.jpg",
     color: "emerald",
   },
 ];
