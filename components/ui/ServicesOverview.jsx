@@ -24,7 +24,7 @@ const services = [
       "Pest and disease management",
       "Post-harvest handling guidance",
     ],
-    image: "/images/pillars/5.jpg",
+    image: "/images/new/IMG20260110114716.jpeg",
     color: "emerald",
   },
   {
@@ -38,7 +38,7 @@ const services = [
       "Loss reduction strategies",
       "Market preparation guidance",
     ],
-    image: "/images/pillars/2.jpg",
+    image: "/images/new/IMG20251217102408.jpeg",
     color: "orange",
   },
   {
@@ -52,7 +52,7 @@ const services = [
       "Quality assurance training",
       "Market linkage support",
     ],
-    image: "/images/pillars/6.jpg",
+    image: "/images/new/IMG20250829141740.jpeg",
     color: "emerald",
   },
   {
@@ -66,7 +66,7 @@ const services = [
       "Train-the-trainer (ToT) workshops",
       "Customized institutional training",
     ],
-    image: "/images/pillars/1.jpg",
+    image: "/images/new/IMG20250227132015.jpeg",
     color: "orange",
   },
 ];

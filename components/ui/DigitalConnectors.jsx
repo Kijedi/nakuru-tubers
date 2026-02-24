@@ -131,7 +131,7 @@ export default function DigitalConnectors() {
               {/* Main Image */}
               <div className="relative h-72 overflow-hidden rounded-3xl lg:h-80">
                 <Image
-                  src="/images/pillars/1.jpg"
+                  src="/images/new/Impact.jpeg"
                   alt="Digital Connector working with farmers"
                   fill
                   className="object-cover"
@@ -161,8 +161,8 @@ export default function DigitalConnectors() {
                 </div>
                 <div className="relative h-40 overflow-hidden rounded-2xl">
                   <Image
-                    src="/images/pillars/7.jpg"
-                    alt="Farmer training session"
+                    src="/images/new/IMG20251010111120.jpeg"
+                    alt="Sustainability and tree planting"
                     fill
                     className="object-cover"
                   />

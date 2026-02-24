@@ -10,7 +10,7 @@ export default function LastMileHero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/pillars/2.jpg"
+          src="/images/new/IMG20251028114555.jpeg"
           alt="Last mile delivery network"
           fill
           priority

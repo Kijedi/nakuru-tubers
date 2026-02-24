@@ -128,7 +128,7 @@ export default function DeliveryFleet() {
           <div className="relative overflow-hidden rounded-3xl">
             <div className="relative h-64 lg:h-80">
               <Image
-                src="/images/pillars/2.jpg"
+                src="/images/new/Last%20Mile.jpeg"
                 alt="Delivery fleet in action"
                 fill
                 className="object-cover"

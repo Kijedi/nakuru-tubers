@@ -130,7 +130,7 @@ export default function MarketPlace() {
       <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-emerald-900">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-20">
-          <div className="absolute inset-0 bg-[url('/images/team/team.jpg')] bg-cover bg-center" />
+          <div className="absolute inset-0 bg-[url('/images/pillars/3.jpg')] bg-cover bg-center" />
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-gray-900/80 via-gray-900/60 to-gray-900/90" />
 

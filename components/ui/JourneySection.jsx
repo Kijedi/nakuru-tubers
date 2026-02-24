@@ -118,7 +118,7 @@ export default function JourneySection() {
               {/* Main Image */}
               <div className="relative h-96 overflow-hidden rounded-3xl lg:h-[500px]">
                 <Image
-                  src="/images/pillars/7.jpg"
+                  src="/images/pillars/4.jpg"
                   alt="Farmers working together"
                   fill
                   className="object-cover"

@@ -10,7 +10,7 @@ export default function ServicesHero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/pillars/7.jpg"
+          src="/images/new/IMG20250407135143.jpeg"
           alt="Agricultural consultancy services"
           fill
           priority

@@ -17,7 +17,7 @@ export default function ImpactHero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/pillars/7.jpg"
+          src="/images/new/Impact%203.jpeg"
           alt="Impact on farming communities"
           fill
           priority
