@@ -13,7 +13,7 @@ const services = [
     title: "Certified Seed Potatoes",
     description:
       "Access high-quality, KEPHIS-certified seed potatoes from 5+ varieties including Shangi, Kenya Mpya, and Unica for better yields.",
-    image: "/images/new/IMG20251124131831.jpeg",
+    image: "/images/product2.jpg",
     color: "emerald",
   },
   {

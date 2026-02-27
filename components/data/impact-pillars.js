@@ -61,7 +61,7 @@ export const impactPillars = [
       "Agriconnect mobile application",
       "Digital record-keeping tools",
     ],
-    image: "/images/pillars/6.jpg",
+    image: "/images/pillars/1.jpg",
     color: "emerald",
   },
   {
@@ -82,7 +82,7 @@ export const impactPillars = [
       "Leadership training for women",
       "Targeted outreach to young farmers",
     ],
-    image: "/images/pillars/1.jpg",
+    image: "/images/pillars/6.jpg",
     color: "orange",
   },
 ];
