@@ -151,7 +151,7 @@ export default function DigitalConnectors() {
 
               {/* Two Smaller Images */}
               <div className="grid grid-cols-2 gap-4">
-                <div className="relative h-40 overflow-hidden rounded-2xl">
+                <div className="relative h-56 overflow-hidden rounded-2xl">
                   <Image
                     src="/images/pillars/6.jpg"
                     alt="Mobile technology in agriculture"
@@ -159,12 +159,13 @@ export default function DigitalConnectors() {
                     className="object-cover"
                   />
                 </div>
-                <div className="relative h-40 overflow-hidden rounded-2xl">
+                <div className="relative h-56 overflow-hidden rounded-2xl">
                   <Image
-                    src="/images/new/IMG20251010111120.jpeg"
+                                      src="/images/digital-connectors/bike2.jpeg"
+
                     alt="Sustainability and tree planting"
                     fill
-                    className="object-cover"
+                    className="object-cover object-bottom"
                   />
                 </div>
               </div>

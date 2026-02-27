@@ -64,7 +64,9 @@ export default function PartnerCtaModern() {
             >
               <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
                 <Image
-                  src="/images/training/training2.jpg"
+                  // src="/images/training/training2.jpg"
+                                      src="/images/new/IMG20251010111120.jpeg"
+
                   alt="Partner with Nakuru Tubers"
                   fill
                   className="object-cover"
