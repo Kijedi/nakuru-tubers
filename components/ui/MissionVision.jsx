@@ -16,7 +16,6 @@ export default function MissionVision() {
         <div className="absolute left-0 top-1/4 h-96 w-96 rounded-full bg-emerald-50 blur-3xl" />
         <div className="absolute right-0 bottom-1/4 h-96 w-96 rounded-full bg-orange-50 blur-3xl" />
       </div>
-
       <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
         <div className="grid gap-16 lg:grid-cols-2 lg:gap-24">
           {/* Mission */}
@@ -29,7 +28,7 @@ export default function MissionVision() {
               {/* Image */}
               <div className="relative mb-8 h-72 overflow-hidden rounded-3xl lg:h-80">
                 <Image
-                  src="/images/about.jpg"
+                  src="/images/new/IMG20250227132015.jpeg"
                   alt="Farmers working in potato field"
                   fill
                   className="object-cover"
@@ -85,7 +84,7 @@ export default function MissionVision() {
               {/* Image */}
               <div className="relative mb-8 h-72 overflow-hidden rounded-3xl lg:h-80">
                 <Image
-                  src="/images/digital-connectors/connectors.jpg"
+                  src="/images/new/IMG20260110114716.jpeg"
                   alt="Agricultural innovation and technology"
                   fill
                   className="object-cover"
