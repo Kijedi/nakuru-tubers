@@ -72,7 +72,7 @@ export default function ServicesPreview() {
         </motion.div>
 
         {/* Services Grid */}
-        <div className="mx-auto mt-16 grid max-w-6xl gap-8 lg:grid-cols-3">
+        <div className="mx-auto mt-16 grid max-w-7xl gap-8 lg:grid-cols-3">
           {services.map((service, index) => {
             const Icon = service.icon;
             const isEmerald = service.color === "emerald";
@@ -87,20 +87,20 @@ export default function ServicesPreview() {
               >
                 <div className="relative h-full overflow-hidden rounded-3xl bg-white shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
                   {/* Image */}
-                  <div className="relative h-48 overflow-hidden">
+                  <div className="relative h-52 overflow-hidden">
                     <Image
                       src={service.image}
                       alt={service.title}
                       fill
                       className="object-cover transition-transform duration-500 group-hover:scale-110"
                     />
-                    <div
+                    {/* <div
                       className={`absolute inset-0 bg-gradient-to-t ${
                         isEmerald
                           ? "from-emerald-900/60"
                           : "from-orange-900/60"
                       } to-transparent`}
-                    />
+                    /> */}
 
                     {/* Icon Badge */}
                     <div

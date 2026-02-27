@@ -73,28 +73,7 @@ export default function PartnerCtaModern() {
                 <div className="absolute inset-0 bg-gradient-to-t from-emerald-900/30 to-transparent" />
               </div>
 
-              {/* Floating Badge */}
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={isInView ? { opacity: 1, y: 0 } : {}}
-                transition={{ delay: 0.5, duration: 0.6 }}
-                className="absolute bottom-4 -right-4 rounded-2xl bg-white p-4 shadow-xl lg:right-8"
-              >
-                <div className="flex items-center gap-3">
-                  <div className="flex -space-x-2">
-                    {[1, 2, 3].map((i) => (
-                      <div
-                        key={i}
-                        className="h-10 w-10 rounded-full border-2 border-white bg-gradient-to-br from-emerald-400 to-teal-500"
-                      />
-                    ))}
-                  </div>
-                  <div>
-                    <p className="text-sm font-bold text-gray-900">Join 50+</p>
-                    <p className="text-xs text-gray-500">Partners</p>
-                  </div>
-                </div>
-              </motion.div>
+              
 
               {/* Decorative Element */}
               <div className="absolute -left-4 -top-4 h-20 w-20 rounded-2xl border-2 border-emerald-500/30" />

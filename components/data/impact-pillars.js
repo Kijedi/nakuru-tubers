@@ -82,7 +82,7 @@ export const impactPillars = [
       "Leadership training for women",
       "Targeted outreach to young farmers",
     ],
-    image: "/images/pillars/6.jpg",
+    image: "/images/new/inclusivity.jpeg",
     color: "orange",
   },
 ];

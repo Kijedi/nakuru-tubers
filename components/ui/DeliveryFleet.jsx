@@ -119,14 +119,14 @@ export default function DeliveryFleet() {
         </div>
 
         {/* Image Section */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.5, duration: 0.7 }}
           className="mx-auto mt-16 max-w-4xl"
         >
-          <div className="relative overflow-hidden rounded-3xl">
-            <div className="relative h-64 lg:h-80">
+          <div className="relative overflow-hidden rounded-3xl"> */}
+            {/* <div className="relative h-64 lg:h-80">
               <Image
                 src="/images/new/Last%20Mile.jpeg"
                 alt="Delivery fleet in action"
@@ -134,10 +134,10 @@ export default function DeliveryFleet() {
                 className="object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-gray-900/20 to-transparent" />
-            </div>
+            </div> */}
 
             {/* Overlay Content */}
-            <div className="absolute bottom-0 left-0 right-0 p-8">
+            {/* <div className="absolute bottom-0 left-0 right-0 p-8">
               <div className="flex flex-wrap items-end justify-between gap-4">
                 <div>
                   <h3 className="text-2xl font-bold text-white">
@@ -164,9 +164,9 @@ export default function DeliveryFleet() {
                   ))}
                 </div>
               </div>
-            </div>
-          </div>
-        </motion.div>
+            </div> */}
+          {/* </div>
+        </motion.div> */}
       </div>
     </section>
   );

@@ -38,7 +38,7 @@ const services = [
       "Loss reduction strategies",
       "Market preparation guidance",
     ],
-    image: "/images/new/IMG20251217102408.jpeg",
+    image: "/images/services/post_harvest.jpg",
     color: "orange",
   },
   {
@@ -52,7 +52,7 @@ const services = [
       "Quality assurance training",
       "Market linkage support",
     ],
-    image: "/images/new/IMG20250829141740.jpeg",
+    image: "/images/bg1.jpg",
     color: "emerald",
   },
   {

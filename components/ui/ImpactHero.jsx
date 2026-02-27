@@ -21,10 +21,10 @@ export default function ImpactHero() {
           alt="Impact on farming communities"
           fill
           priority
-          className="object-cover"
+          className="object-cover "
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-gray-900/95 via-gray-900/80 to-gray-900/50" />
-        <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-gray-900/90 via-gray-900/50 to-gray-900/20" />
+        {/* <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent" /> */}
       </div>
 
       {/* Content */}

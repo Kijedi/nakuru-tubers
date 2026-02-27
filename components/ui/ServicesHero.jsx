@@ -10,11 +10,11 @@ export default function ServicesHero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/new/IMG20250407135143.jpeg"
+          src="/images/pillars/4.jpg"
           alt="Agricultural consultancy services"
           fill
           priority
-          className="object-cover"
+          className="object-bottom object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-gray-900/95 via-gray-900/80 to-gray-900/50" />
         <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent" />
