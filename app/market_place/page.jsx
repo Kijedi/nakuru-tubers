@@ -5,7 +5,7 @@ import NavbarModern from "@/components/ui/NavbarModern";
 import FooterModern from "@/components/ui/FooterModern";
 import { getProducts } from "@/utils/appwrite";
 import { motion, AnimatePresence } from "framer-motion";
-import { IoCartOutline, IoLeafOutline, IoSearchOutline } from "react-icons/io5";
+import { IoCartOutline, IoLeafOutline, IoSearchOutline, IoImageOutline } from "react-icons/io5";
 import { FiPackage, FiTruck, FiShield } from "react-icons/fi";
 import {
   Popover,
@@ -81,10 +81,17 @@ export default function MarketPlace() {
     const fetchCategories = async () => {
       try {
         const categories = await getProducts();
-        const potatoes = categories.filter((p) =>
+        // Filter out products not visible online
+        const filtered = categories.map((cat) => ({
+          ...cat,
+          products: (cat.products || []).filter(
+            (p) => p.show_online !== false
+          ),
+        })).filter((cat) => cat.products.length > 0);
+        const potatoes = filtered.filter((p) =>
           p.category_name.toLowerCase().includes("potato")
         );
-        const otherProducts = categories.filter(
+        const otherProducts = filtered.filter(
           (p) => !p.category_name.toLowerCase().includes("potato")
         );
         const sortedCategories = [...potatoes, ...otherProducts];
@@ -332,14 +339,19 @@ export default function MarketPlace() {
                         >
                           {/* Product Image */}
                           <div className="relative aspect-square overflow-hidden bg-gray-100">
-                            <Image
-                              src={
-                                product.image || "/images/products/thunder.png"
-                              }
-                              alt={product.name}
-                              fill
-                              className="object-contain p-4 transition-transform duration-500 group-hover:scale-110"
-                            />
+                            {product.image ? (
+                              <Image
+                                src={product.image}
+                                alt={product.name}
+                                fill
+                                className="object-contain p-4 transition-transform duration-500 group-hover:scale-110"
+                              />
+                            ) : (
+                              <div className="flex h-full w-full flex-col items-center justify-center gap-2 text-gray-400">
+                                <IoImageOutline className="h-10 w-10 opacity-40" />
+                                <span className="text-xs">No image</span>
+                              </div>
+                            )}
                             {/* Quick Add Overlay */}
                             <div className="absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                               <Popover>
