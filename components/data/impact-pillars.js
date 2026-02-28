@@ -40,7 +40,7 @@ export const impactPillars = [
       "Agro-dealer partnerships",
       "Training and mentorship programs",
     ],
-    image: "/images/pillars/2.jpg",
+    image: "/images/new/jobs.jpeg",
     color: "orange",
   },
   {

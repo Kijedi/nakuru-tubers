@@ -28,7 +28,7 @@ export default function ImpactHero() {
       </div>
 
       {/* Content */}
-      <div className="relative mx-auto flex min-h-[70vh] max-w-7xl items-center px-6 py-32 lg:px-8">
+      <div className="relative mx-auto flex min-h-[70vh] max-w-7xl items-center px-6 py-28 lg:px-8">
         <div className="max-w-3xl">
           {/* Badge */}
           <motion.div
@@ -58,7 +58,7 @@ export default function ImpactHero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.7 }}
-            className="mt-6 text-lg leading-relaxed text-gray-300 sm:text-xl"
+            className="mt-6 text-sm leading-relaxed text-gray-300 sm:text-lg"
           >
             Our comprehensive approach ensures sustainable and lasting impact across
             Kenya's agricultural landscape. From improving food security to creating
@@ -82,7 +82,7 @@ export default function ImpactHero() {
                   initial={{ opacity: 0, scale: 0.9 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ delay: 0.4 + index * 0.1, duration: 0.5 }}
-                  className="group flex items-center gap-3 rounded-full border border-white/20 bg-white/5 px-5 py-3 backdrop-blur-sm transition-all hover:border-emerald-500/50 hover:bg-emerald-500/10"
+                  className="group flex items-center gap-3 rounded-full border border-white/20 bg-white/5 px-5 py-2 backdrop-blur-sm transition-all hover:border-emerald-500/50 hover:bg-emerald-500/10"
                 >
                   <div className="flex h-10 w-10 items-center justify-center rounded-full bg-emerald-500/20 text-emerald-400 transition-colors group-hover:bg-emerald-500 group-hover:text-white">
                     <Icon className="h-5 w-5" />
@@ -100,7 +100,7 @@ export default function ImpactHero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.7 }}
-            className="mt-12 flex flex-wrap gap-8 border-t border-white/10 pt-8"
+            className="mt-6 flex flex-wrap gap-8 border-t border-white/10"
           >
             {[
               { value: "30K+", label: "Farmers Impacted" },

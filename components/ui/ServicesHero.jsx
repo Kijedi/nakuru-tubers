@@ -14,10 +14,10 @@ export default function ServicesHero() {
           alt="Agricultural consultancy services"
           fill
           priority
-          className="object-bottom object-cover"
+          className="object-center object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-gray-900/95 via-gray-900/80 to-gray-900/50" />
-        <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-gray-900/80 via-gray-900/40 to-gray-900/10" />
+        <div className="absolute inset-0 bg-gradient-to-t from-gray-900/50 via-transparent to-transparent" />
       </div>
 
       {/* Content */}
