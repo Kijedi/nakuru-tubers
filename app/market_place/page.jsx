@@ -163,7 +163,7 @@ export default function MarketPlace() {
           >
             <span className="inline-flex items-center gap-2 rounded-full bg-emerald-500/20 px-4 py-2 text-sm font-medium text-emerald-300 ring-1 ring-emerald-500/30">
               <IoLeafOutline className="h-4 w-4" />
-              Farm Fresh Products
+              Quality Farm Inputs
             </span>
           </motion.div>
 
