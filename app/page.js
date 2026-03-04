@@ -1,36 +1,19 @@
-// import Product from "../components/UI/Product";
-import Footer from "../components/ui/Footer";
-import Hero2 from "../components/ui/Hero2";
-import Navbar from "../components/ui/Navbar";
-import About from "../components/ui/About";
-import Offer from "../components/ui/Offer";
-import Partner from "../components/ui/Partner";
-import Services from "../components/ui/Services";
-import Traction from "../components/ui/Traction";
-import Value from "../components/ui/Value";
-import Problem from "../components/ui/Problem";
-import Change from "../components/ui/Change";
-import Partners from "../components/ui/Partners";
-import Impact from "../components/ui/Impact";
-
+import FooterModern from "../components/ui/FooterModern";
+import NavbarModern from "../components/ui/NavbarModern";
+import HeroModern from "../components/ui/HeroModern";
+import JourneySection from "../components/ui/JourneySection";
+import ServicesPreview from "../components/ui/ServicesPreview";
+import PartnersModern from "../components/ui/PartnersModern";
 
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <Hero2 />
-      <About />
-      <Traction />
-      <Value />
-      <Problem />
-      <Impact />
-
-      <Change />
-
-      <Services />
-      <Partners />
-      <Partner />
-      <Footer />
+      <NavbarModern />
+      <HeroModern />
+      <JourneySection />
+      <ServicesPreview />
+      <PartnersModern />
+      <FooterModern />
     </>
   );
 }
