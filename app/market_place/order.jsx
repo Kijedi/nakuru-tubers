@@ -201,6 +201,7 @@ export default function PlaceOrder({ cart, open, setOpen, setCart }) {
                                 src={item.image}
                                 alt={item.name}
                                 fill
+                                unoptimized
                                 className="object-contain p-2"
                               />
                             ) : (
