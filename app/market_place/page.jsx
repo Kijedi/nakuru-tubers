@@ -344,7 +344,6 @@ export default function MarketPlace() {
                                 src={product.image}
                                 alt={product.name}
                                 fill
-                                unoptimized
                                 className="object-contain p-4 transition-transform duration-500 group-hover:scale-110"
                               />
                             ) : (

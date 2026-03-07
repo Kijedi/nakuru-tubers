@@ -18,8 +18,7 @@ const nextConfig = {
         pathname: "/**"
       }
     ],
-    unoptimized: true,
-  },
+},
 };
 
 export default nextConfig;
