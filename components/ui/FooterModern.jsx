@@ -189,20 +189,9 @@ export default function FooterModern() {
                 </button>
               </div>
             </form>
-          </div>
-        </div>
-
-        {/* Divider */}
-        <div className="mt-12 border-t border-gray-800 pt-8">
-          <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
-            {/* Copyright */}
-            <p className="text-sm text-gray-500">
-              &copy; {new Date().getFullYear()} Nakuru Tubers. All rights
-              reserved.
-            </p>
 
             {/* Social Links */}
-            <div className="flex gap-4">
+            <div className="mt-6 flex gap-3">
               {navigation.social.map((item) => (
                 <motion.a
                   key={item.name}
@@ -217,6 +206,30 @@ export default function FooterModern() {
                 </motion.a>
               ))}
             </div>
+          </div>
+        </div>
+
+        {/* Divider */}
+        <div className="mt-12 border-t border-gray-800 pt-8">
+          <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
+            {/* Copyright */}
+            <p className="text-sm text-gray-500">
+              &copy; {new Date().getFullYear()} Nakuru Tubers. All rights
+              reserved.
+            </p>
+
+            {/* Attribution */}
+            <p className="text-sm text-gray-500">
+              Crafted by{" "}
+              <a
+                href="https://violettechies.co.ke/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-emerald-500 transition-colors hover:text-emerald-400"
+              >
+                Violet Techies
+              </a>
+            </p>
           </div>
         </div>
       </div>
