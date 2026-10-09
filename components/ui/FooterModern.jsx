@@ -220,7 +220,7 @@ export default function FooterModern() {
 
             {/* Attribution */}
             <p className="text-sm text-gray-500">
-              Crafted by{" "}
+              Developed by{" "}
               <a
                 href="https://violettechies.co.ke/"
                 target="_blank"
